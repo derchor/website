@@ -32,3 +32,15 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  concerts:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "concert"
+    values:
+      layout: "staff-member"
