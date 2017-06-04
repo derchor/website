@@ -1,8 +1,10 @@
 ---
 layout:
-title: New Post
+title: Super cool new post
 date: 2017-06-04 20:16:00
 categories:
-  - jekyll
-  - update
+  - concert
 ---
+
+
+I can wirte here wonderfully
