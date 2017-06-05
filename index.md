@@ -1,10 +1,8 @@
 ---
 layout: default
-color: "0,0,0"
+color: '0,0,0'
 image: the-armed-man.png
 ---
-
-<<<<<<< HEAD
 
 # A mass for peace
 ## Carl Jenkins
@@ -23,6 +21,3 @@ Das überwältigende Stück basiert auf Texten der katholischen Messliturgie, di
 Das Werk von Jenkins wurde für vierstimmigen gemischten Chor mit zwei Solisten (Sopran und Muezzin) und sinfonische Orchesterbesetzung geschrieben.
 Die bekannte Berner Sopranistin Karin Stübi Wohlgemut wird den Sopran Solo Part übernehmen.
 Ebenso Scheich Peter Hüsseyin Cunz, Vorsteher der Mevlana Stiftung Schweiz, der den Part des Muezzins bereits in mehreren Aufführungen gesungen hat.
-=======
-some more content
->>>>>>> 41967205d488a5b44bb02fbb311c5ca3fe49e3a7

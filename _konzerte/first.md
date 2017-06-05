@@ -1,10 +1,9 @@
 ---
-title: Elon Musk
+title: First
+position: 0
 subtitle: CEO
 font-color: 
 background-color: 
-title: First
-position: 0
 name: Elon Musk
 twitter_handle: "@elonmusk"
 profile_photo_path: http://www.wired.com/images_blogs/wiredscience/2012/10/ff_musk4_f.jpg
