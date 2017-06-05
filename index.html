@@ -10,4 +10,12 @@ pictures:
 layout: default
 ---
 
+{% for konzert in site.konzerte %} 
+{% if konzert.current %} 
+    <h1>{{konzert.title}}</h1>
+    {{konzert.content}}
+{% endif %}
+{% endfor %}
+
+
 <div class="editable"><p>Der CHOR besteht aus rund 90 singenden Studierenden des <a href="http://www.ivp-nms.ch/">Instituts f&uuml;r Vor- und Primarschule Bern NMS</a> und der <a href="http://www.unibe.ch/">Uni Bern</a>.</p><p>Der CHOR wurde von Studenten zusammen mit Rudolf K&auml;mpf, Dozent f&uuml;r Chorleitung an der ZHdK und f&uuml;r Musikdidaktik an der P&auml;dagogischen Hochschule PH Bern, gegr&uuml;ndet. Ziel ist es, einen jungen Chor zu formen und abwechslungsreiche Programme zur Auff&uuml;hrung zu bringen und damit einen Kontrapunkt zu anderen Laiench&ouml;ren zu setzen.</p><p>&bdquo;Der Chor pr&auml;sentiert sich musikalisch beeindruckend agil und sprachlich pr&auml;zis, l&auml;sst sich von den vielen Dissonanzen und verminderten Akkorden im Programm nicht aus der Ruhe bringen.&ldquo;</p><div>&nbsp;</div></div>

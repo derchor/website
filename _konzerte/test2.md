@@ -9,4 +9,5 @@ pictures:
     caption:
 layout: default
 new_field: test
+current: true
 ---
