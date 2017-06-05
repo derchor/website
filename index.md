@@ -4,7 +4,6 @@ color: '0,0,0'
 image: the-armed-man.png
 ---
 
-
 # A mass for peace
 ## Carl Jenkins
 
