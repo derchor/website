@@ -1,8 +1,14 @@
 ---
+year: 
+title: Konzerttitel
+subtitle: Konzertsubtitel
+background_image_path: /images/chor.png
+color_of_background: '0,0,0'
+pictures:
+    -
+        path:
+        caption:
 layout: default
-color: '#1d3781'
-background: "#1d3781"
-image: /images/wunsch.png
 ---
 
 
