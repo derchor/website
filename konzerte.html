@@ -1,0 +1,19 @@
+---
+permalink: "/konzerte/"
+---
+
+
+<h1>Konzerte</h1>
+
+<ul>
+{% for konzert in site.konzerte %}
+<li>
+  <p>
+    <a href="{{ konzert.url }}">
+      {{ konzert.title }}
+    </a>
+  </p>
+</li>
+{% endfor %}
+</ul>
+
