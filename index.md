@@ -9,12 +9,6 @@ pictures:
         path:
         caption:
 layout: default
-<<<<<<< HEAD
-=======
-color: '#1d3781'
-background: '(0,0,0)'
-image: /images/wunsch.png
->>>>>>> eaffb0d3474eb4170bf62fb20c4c35e66ba5a507
 ---
 
 
