@@ -1,7 +1,7 @@
 ---
 layout: default
 color: '#1d3781'
-background: "#1d3781"
+background: '(0,0,0)'
 image: /images/wunsch.png
 ---
 
