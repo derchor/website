@@ -4,13 +4,21 @@
   <title></title>
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <style type="text/css" media="screen">
+    {% capture background_color  %}
+      {{ page.background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',1)' }}
+    {% endcapture %}
+    {% capture background_color_transparent  %}
+      {{ page.background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',0)' }}
+    {% endcapture %}
+    {% capture background_color_half_transparent  %}
+      {% if page.background_opacity %}
+        {{ page.background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',opacity)' | replace: "opacity", page.background_opacity}}
+      {%else %}
+        {{ page.background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',0.3)' }}
+      {% endif %}
+    {% endcapture %}
 
-        {% capture background_color  %}
-          {{ page.background_color |  replace: 'rgb', 'rgba' | replace: ")", ',1)' }}
-        {% endcapture %}
-        {% capture background_color_transparent  %}
-          {{ page.background_color |  replace: 'rgb', 'rgba' | replace: ")", ',0)' }}
-        {% endcapture %}
+
 
 
     body {
@@ -18,23 +26,12 @@
     }
 
     .background {
-      position: absolute;
-      width: 100%;
       background-color: {{background_color}};
       z-index: -1000;
     }
 
-    .background img {
-      width: 100%;
-    }
 
     .background:before {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      height: 10em;
-      content: '';
       background-image:
         linear-gradient(
           {{background_color}}, 
@@ -43,12 +40,6 @@
     }
 
     .background:after {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 10em;
-      content: '';
       background-image:
         linear-gradient(
           {{background_color_transparent}},
@@ -59,12 +50,8 @@
     body:before {
       background: 
         linear-gradient(to right,
-          {{background_color_transparent}}
-          {{background_color}})
-    }
-
-    header {
-      padding: 2em;
+          {{background_color_transparent}} 0%,
+          {{background_color_half_transparent}} 10%)
     }
 
   </style>

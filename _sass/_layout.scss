@@ -3,6 +3,10 @@ body {
   background-repeat: no-repeat;
 }
 
+header {
+  padding: 2em;
+}
+
 a.brand {
   float: left;
   width: 20em;
@@ -31,4 +35,32 @@ body:before {
   bottom: 0;
   width: 90%;
   z-index: -999;
+}
+
+
+.background {
+  position: absolute;
+  width: 100%;
+}
+
+.background img {
+  width: 100%;
+}
+
+.background:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 10em;
+  content: '';
+}
+
+.background:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10em;
+  content: '';
 }
