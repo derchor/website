@@ -5,15 +5,22 @@
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <style type="text/css" media="screen">
 
-  body {
-         background-color: rgb({{page.color_of_background}});
- 
-  }
+        {% capture background_color  %}
+          {{ page.background_color |  replace: 'rgb', 'rgba' | replace: ")", ',1)' }}
+        {% endcapture %}
+        {% capture background_color_transparent  %}
+          {{ page.background_color |  replace: 'rgb', 'rgba' | replace: ")", ',0)' }}
+        {% endcapture %}
+
+
+    body {
+       background-color: {{background_color}};
+    }
 
     .background {
       position: absolute;
       width: 100%;
-      background-color: rgb({{page.color_of_background}});
+      background-color: {{background_color}};
       z-index: -1000;
     }
 
@@ -30,8 +37,8 @@
       content: '';
       background-image:
         linear-gradient(
-          rgba({{page.color_of_background}},1), 
-          rgba({{page.color_of_background}},0)
+          {{background_color}}, 
+          {{background_color_transparent}}
         );
     }
 
@@ -44,16 +51,16 @@
       content: '';
       background-image:
         linear-gradient(
-          rgba({{page.color_of_background}},0), 
-          rgba({{page.color_of_background}},1)
+          {{background_color_transparent}},
+          {{background_color}}
         );
     }
 
     body:before {
       background: 
         linear-gradient(to right,
-          rgba({{page.color_of_background}},0) 0%, 
-          rgba({{page.color_of_background}},0.3) 10%)
+          {{background_color_transparent}}
+          {{background_color}})
     }
 
     header {
