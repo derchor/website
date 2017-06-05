@@ -9,4 +9,5 @@ pictures:
         path:
         caption:
 layout: default
+new_field: test
 ---
