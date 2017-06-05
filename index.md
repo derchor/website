@@ -1,6 +1,6 @@
 ---
 layout: default
-color: "0,0,0"
+color: '0,0,0'
 image: the-armed-man.png
 ---
 

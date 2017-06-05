@@ -1,6 +1,5 @@
 ---
-permalink: /konzerte/
+permalink: "/konzerte/"
 ---
-
 
 hello
