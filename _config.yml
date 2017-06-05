@@ -1,3 +1,4 @@
+---
 title: Your awesome title
 timezone: UTC
 collections:
@@ -28,7 +29,6 @@ url: ''
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-
 gems:
 - jekyll-feed
 exclude:
