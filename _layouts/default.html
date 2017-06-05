@@ -4,15 +4,16 @@
   <title></title>
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <style type="text/css" media="screen">
+
   body {
-         background-color: rgb({{page.color}});
+         background-color: rgb({{page.color_of_background}});
  
   }
 
     .background {
       position: absolute;
       width: 100%;
-      background-color: rgb({{page.color}});
+      background-color: rgb({{page.color_of_background}});
       z-index: -1000;
     }
 
@@ -29,8 +30,8 @@
       content: '';
       background-image:
         linear-gradient(
-          rgba({{page.color}},1), 
-          rgba({{page.color}},0)
+          rgba({{page.color_of_background}},1), 
+          rgba({{page.color_of_background}},0)
         );
     }
 
@@ -43,16 +44,16 @@
       content: '';
       background-image:
         linear-gradient(
-          rgba({{page.background}},0), 
-          rgba({{page.background}},1)
+          rgba({{page.color_of_background}},0), 
+          rgba({{page.color_of_background}},1)
         );
     }
 
     body:before {
       background: 
         linear-gradient(to right,
-          rgba({{page.background}},0) 0%, 
-          rgba({{page.background}},0.3) 10%)
+          rgba({{page.color_of_background}},0) 0%, 
+          rgba({{page.color_of_background}},0.3) 10%)
     }
 
     header {
@@ -63,7 +64,7 @@
 </head>
 <body>
     <div class="background">
-      <img src="{{page.background-path}}" alt="">
+      <img src="{{page.color_of_background-path}}" alt="">
     </div>
     <div class="container">
       <header>
@@ -77,6 +78,9 @@
         </nav>
       </header>
       <main>
+        hello
+        there
+
         {{content}}       
       </main>
   </div>    
