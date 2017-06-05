@@ -1,7 +1,7 @@
 ---
 layout: default
-color: '0,0,0'
-image: the-armed-man.png
+color: '41,115,153'
+image: wunsch.png
 ---
 
 # A mass for peace
