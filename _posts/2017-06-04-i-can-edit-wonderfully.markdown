@@ -1,12 +1,11 @@
 ---
-layout:
 title: I can edit wonderfully
-date: 2017-06-04 20:16:00
+date: 2017-06-04 20:16:00 Z
 categories:
-  - jekyll
-  - update
+- jekyll
+- update
+layout: 
 ---
-
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site a file is updated.
 
