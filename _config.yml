@@ -26,7 +26,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
@@ -34,13 +33,14 @@ exclude:
   - Gemfile.lock
 
 collections:
-  concerts:
+  konzerte:
     output: true
 
 defaults:
   -
     scope:
-      path: ""
-      type: "concert"
+      path: "" # an empty string here means all files in the project
     values:
-      layout: "staff-member"
+      layout: "default"
+      color: "0,0,0"
+      image: "chor.png"

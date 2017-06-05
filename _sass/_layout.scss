@@ -1,0 +1,34 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a.brand {
+  float: left;
+  width: 20em;
+  max-width: 50%;
+}
+
+a.brand img {
+}
+
+main {
+  padding: 1em;
+  max-width: 30em; 
+  float: right;
+}
+
+// .container {
+//   max-width: 50em;
+//   margin: auto;
+// }
+
+body:before {
+  content: '';
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+  z-index: -999;
+}

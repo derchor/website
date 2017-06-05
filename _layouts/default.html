@@ -1,1 +1,81 @@
-    {{content}}
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <style type="text/css" media="screen">
+
+    .background {
+      position: absolute;
+      width: 100%;
+      background-color: rgb({{page.color}});
+      z-index: -1000;
+    }
+
+    .background img {
+      width: 100%;
+    }
+
+    .background:before {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 10em;
+      content: '';
+      background-image:
+        linear-gradient(
+          rgba({{page.color}},1), 
+          rgba({{page.color}},0)
+        );
+    }
+
+    .background:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 10em;
+      content: '';
+      background-image:
+        linear-gradient(
+          rgba({{page.color}},0), 
+          rgba({{page.color}},1)
+        );
+    }
+
+    body:before {
+      background: 
+        linear-gradient(to right,
+          rgba({{page.color}},0) 0%, 
+          rgba({{page.color}},0.3) 10%)
+    }
+
+    header {
+      padding: 2em;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="background">
+      <img src="/images/{{page.image}}" alt="">
+    </div>
+    <div class="container">
+      <header>
+        <a href="/" class="brand"><img src="/images/logo.svg" alt=""></a>
+        <nav>
+          <ul>
+            <li><a href="/" title="">Aktuell</a></li>
+            <li><a href="/konzerte" title="">Konzerte</a></li>
+            <li><a href="/mitmachen" title="">Mitmachen</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {{content}}       
+      </main>
+  </div>    
+</body>
+</html>
+
