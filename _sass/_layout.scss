@@ -5,15 +5,16 @@ body {
 
 header {
   padding: 2em;
+  float: left;
 }
 
 a.brand {
   float: left;
   width: 20em;
-  max-width: 50%;
 }
 
 a.brand img {
+  width: 100%;
 }
 
 main {
@@ -34,10 +35,11 @@ main {
 //   padding: 1em;
 // }
 
-// .container {
-//   max-width: 50em;
-//   margin: auto;
-// }
+.container {
+  max-width: 65em;
+  margin: auto;
+  position: relative;
+}
 
 body:before {
   content: '';
