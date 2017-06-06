@@ -1,5 +1,5 @@
 ---
-current: true
+current: false
 year: '2012'
 title: Wunsch Traum Utopie
 subtitle: Chor Musik von Lasso bis Sting
