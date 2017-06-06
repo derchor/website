@@ -10,11 +10,12 @@
     {% assign background_opacity = page.background_opacity %}
     
     {% if page.url == "/" %}
-        {% for konzert in site.konzerte %} 
-        {% if konzert.current %}
-          {% assign background_color_rgb = konzert.background_color_rgb %}
-          {% assign background_image_path = konzert.background_image_path %}
-          {% assign background_opacity = konzert.background_opacity %}
+        {% for concert in site.concerts %} 
+
+        {% if concert.name == page.konzert %}
+          {% assign background_color_rgb = concert.background_color_rgb %}
+          {% assign background_image_path = concert.background_image_path %}
+          {% assign background_opacity = concert.background_opacity %}
         {% endif %}
     {% endfor %}
     
