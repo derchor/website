@@ -1,8 +1,13 @@
-{% include html-start.html %}
+{% include html-start.html %}     
 <h1><small>{{page.year}}</small><br>{{page.title}}</h1>
-<h2>{{page.subtitle}}</h2>
-<div class="editable">
-{{content}}     
+<div>  
+  <h2>{{page.subtitle}}</h2>
+  <div>{{content}}</div>
+</div>
+<div>
+  {% for video in page.youtube %}
+    <iframe width="100%" height="300" src="{{video}}" frameborder="0" allowfullscreen></iframe>
+  {% endfor %}
 </div>
 {% include html-end.html %}     
 
