@@ -18,8 +18,11 @@ permalink: "/konzerte/"
 
 {% assign sorted_concerts = site.concerts | reverse %}
 {% for concert in sorted_concerts %}
-    <p><a href="{{ concert.url }}">
-        <h3>{{concert.year}} - {{ concert.title }}<br><small>{{concert.subtitle}}</small></h2>
+    <a href="{{ concert.url }}" class="concert-preview-link">
+      <div class="concert-preview">
+        <div class="concert-preview-title">{{concert.year}} - {{ concert.title }}</div>
+        <div class="concert-preview-subtitle">{{concert.subtitle}}</div>      
+      </div>
     </a></p>
 {% endfor %}
 

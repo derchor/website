@@ -14,3 +14,7 @@ a {
   text-decoration: underline;
   display: inline-block;
 }
+
+a.no-underline {
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+a.concert-preview-link {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  background-color: rgba(50,50,50,0.7);
+}
+
+a.concert-preview-link:hover {
+  background-color: rgba(70,70,70,0.7);
+}
+
+
+.concert-preview {
+  .concert-preview-title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  .concert-preview-subtitle {
+    opacity: 0.7;
+  }
+  width: 100%;
+}
+
+.concert-preview:hover {
+  
+}
+
