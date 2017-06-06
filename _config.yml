@@ -2,8 +2,9 @@
 title: der chor
 timezone: UTC
 collections:
-  konzerte:
+  concerts:
     title: Konzerte
+    permalink: /konzerte/:name
     output: true
   posts:
     title: Posts

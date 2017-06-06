@@ -9,14 +9,14 @@ pictures:
   - path:
     caption:
 layout: default
-konzerte: 
+concert: 
 ---
 
-{% for konzert in site.konzerte %} 
-    {% if konzert.current %} 
-        <h1>{{konzert.title}}</h1>
-        <h2>{{konzert.subtitle}}</h2>
-        {{konzert.content}}
+{% for concert in site.concerts %} 
+    {% if concert.current %} 
+        <h1>{{concert.title}}</h1>
+        <h2>{{concert.subtitle}}</h2>
+        {{concert.content}}
     {% endif %}
 {% endfor %}
 

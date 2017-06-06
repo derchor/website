@@ -46,7 +46,6 @@
       z-index: -1000;
     }
 
-
     .background:before {
       background-image:
         linear-gradient(
@@ -64,10 +63,10 @@
     }
 
     body:before {
-      background: 
+      background:
         linear-gradient(to right,
           {{background_color_transparent}} 0%,
-          {{background_color_half_transparent}} 10%)
+          {{background_color_half_transparent}} 10%);
     }
 
   </style>
@@ -77,6 +76,7 @@
       <img src="{{background_image_path}}" alt="">
     </div>
     <div class="container">
+
       <header>
         <a href="/" class="brand"><img src="/images/logo.svg" alt=""></a>
       </header>

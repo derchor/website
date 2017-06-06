@@ -63,14 +63,14 @@ body:before {
   width: 100%;
 }
 
-// .background:before {
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-//   top: 0;
-//   height: 10em;
-//   content: '';
-// }
+.background:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3em;
+  content: '';
+}
 
 .background:after {
   position: absolute;

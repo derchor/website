@@ -16,10 +16,10 @@ permalink: "/konzerte/"
 <p>Seit 2002 hat Der CHOR fünfzehn grosse Konzertprojekte umgesetzt.</p>    
 </div>
 
-{% assign sorted_konzerte = site.konzerte | reverse %}
-{% for konzert in sorted_konzerte %}
-    <p><a href="{{ konzert.url }}">
-        <h3>{{konzert.year}} - {{ konzert.title }}<br><small>{{konzert.subtitle}}</small></h2>
+{% assign sorted_concerts = site.concerts | reverse %}
+{% for concert in sorted_concerts %}
+    <p><a href="{{ concert.url }}">
+        <h3>{{concert.year}} - {{ concert.title }}<br><small>{{concert.subtitle}}</small></h2>
     </a></p>
 {% endfor %}
 

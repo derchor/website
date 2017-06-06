@@ -20,3 +20,14 @@ nav a {
   text-decoration: none;
 }
 
+@media all and (max-width: 55em) {
+  header {
+    margin-bottom: -3em;
+  }
+  // nav {
+  //   margin-bottom: 10em;
+  // }
+  // .background {
+  //   top: 6em;
+  // }
+}
