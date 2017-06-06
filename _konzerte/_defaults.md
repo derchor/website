@@ -4,8 +4,7 @@ year:
 title: Konzerttitel
 subtitle: Konzertsubtitel
 background_image_path: /images/chor.png
-color_of_background: '0,0,0'
-test_rgb: 0,0,0
+background_color_rgb: 'rgb(0,0,0)'
 pictures:
     -
         path:

@@ -1,18 +1,23 @@
 ---
+background_image_path: /images/chor.png
+background_color_rgb: 'rgb(0,0,0)'
+background_opacity: 0.5
+pictures:
+    -
+        path:
+        caption:
+layout: default
 permalink: "/konzerte/"
 ---
 
 <h1>Konzerte</h1>
 
-<ul>
-{% for konzert in site.konzerte %}
-<li>
-  <p>
-    <a href="{{ konzert.url }}">
-      {{ konzert.title }}
-    </a>
-  </p>
-</li>
+<p>Seit 2002 hat Der CHOR fünfzehn grosse Konzertprojekte umgesetzt.</p>
+
+{% assign sorted_konzerte = site.konzerte | reverse %}
+{% for konzert in sorted_konzerte %}
+    <p><a href="{{ konzert.url }}">
+        <h3>{{konzert.year}} - {{ konzert.title }}<br><small>{{konzert.subtitle}}</small></h2>
+    </a></p>
 {% endfor %}
-</ul>
 

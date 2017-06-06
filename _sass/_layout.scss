@@ -19,6 +19,7 @@ a.brand img {
 main {
   padding: 1em;
   max-width: 30em; 
+  width: 90%;
   float: right;
 }
 
@@ -41,20 +42,22 @@ body:before {
 .background {
   position: absolute;
   width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .background img {
   width: 100%;
 }
 
-.background:before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 10em;
-  content: '';
-}
+// .background:before {
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   height: 10em;
+//   content: '';
+// }
 
 .background:after {
   position: absolute;
