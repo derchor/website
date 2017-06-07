@@ -2,10 +2,6 @@
 title: der chor
 timezone: UTC
 collections:
-  concerts:
-    title: Konzerte
-    output: true
-    permalink: "/konzerte/:name"
   people:
     title: Personen
     output: true
@@ -16,6 +12,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  concerts:
+    title: concerts
+    output: true
+    permalink: "/konzerte/:name"
 defaults:
 - scope:
     path: ''
