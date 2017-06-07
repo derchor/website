@@ -5,9 +5,9 @@
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <style type="text/css" media="screen">
 
-    {%- assign background_color_rgb = page.background_color_rgb %}
-    {%- assign background_image_path = page.background_image_path %}
-    {%- assign background_opacity = page.background_opacity %}
+    {% assign background_color_rgb = page.background_color_rgb %}
+    {% assign background_image_path = page.background_image_path %}
+    {% assign background_opacity = page.background_opacity %}
     
     {% if page.url == "/" %}
       {% for concert in site.concerts %} 
@@ -16,11 +16,8 @@
           {% assign background_image_path = concert.background_image_path %}
           {% assign background_opacity = concert.background_opacity %}
         {% endif %}
-      {% endfor %}
-    
+      {% endfor %}    
     {% endif %}
-
-
 
     {% capture background_color  %}
       {{ background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',1)' }}
