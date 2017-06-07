@@ -47,9 +47,17 @@ body:before {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 90%;
+  width: 65%;
   z-index: -999;
 }
+
+@media screen and (max-width: 60em) {
+  body:before {
+    width: 40em;
+  }
+}
+
+
 
 
 .background {
@@ -57,20 +65,26 @@ body:before {
   width: 100%;
   max-height: 90%;
   overflow: hidden;
+    filter:blur(1px);
+  -o-filter:blur(1px);
+  -ms-filter:blur(1px);
+  -moz-filter:blur(1px);
+  -webkit-filter:blur(1px);
+
 }
 
 .background img {
   width: 100%;
 }
 
-.background:before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 3em;
-  content: '';
-}
+// .background:before {
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   height: 3em;
+//   content: '';
+// }
 
 .background:after {
   position: absolute;
