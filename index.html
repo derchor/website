@@ -13,7 +13,7 @@ concert: 2016-test
 ---
 
 {% for concert in site.concerts %} 
-    {% if concert.current %} 
+    {% if concert.title == page.concert %} 
         <h1>{{concert.title}}</h1>
         <h2>{{concert.subtitle}}</h2>
         {{concert.content}}
