@@ -4,29 +4,37 @@ timezone: UTC
 collections:
   concerts:
     title: Konzerte
-    permalink: /konzerte/:name
     output: true
+    permalink: "/konzerte/:name"
   people:
     title: Personen
-    permalink: /personen/:name
+    output: true
+    permalink: "/personen/:name"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
     output: true
 defaults:
 - scope:
     path: ''
   values:
     layout: default
-    background_color_rgb: 'rgb(0,0,0)'
-    background_image_path: /images/chor.png
+    background_color_rgb: rgb(0,0,0)
+    background_image_path: "/images/chor.png"
     background_opacity: 0.5
     font_color: white
 - scope:
-    type: 'concerts'
+    path: ''
+    type: concerts
   values:
     layout: konzerte
 - scope:
-    type: 'people'
+    path: ''
+    type: people
   values:
-    layout: 'people'
+    layout: people
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
