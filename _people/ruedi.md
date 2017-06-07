@@ -2,8 +2,8 @@
 name: Rudolf Kämpf
 role: Dirigent
 image_path: '/images/people/ruedi.png'
-description:
 ---
+
 Seit 2010: Dozent für Chorleitung an der Zürcher Hochschule der Künste, ZHdK.
 
 Seit 2001: Dozent für Musik und Fachdidaktik Musik am Institut für Vorschul- und Primarstufe IVP NMS an der Pädagogischen Hochschule PH Bern. 
