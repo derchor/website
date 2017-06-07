@@ -7,9 +7,9 @@ background_image_path: /images/chor.png
 background_color_rgb: 'rgb(0,0,0)'
 layout: konzerte
 images:
-  -
-    image_path:
+  - image_path:
 youtube:
-  -
-    url: 
+  - url: 
+_comments:
+  youtube: src url für embed. Beispiel: https://www.youtube.com/embed/KAGEf-ugqlQ
 ---

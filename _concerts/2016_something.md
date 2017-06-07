@@ -9,11 +9,8 @@ images:
   -
     image_path:
 youtube:
-    - https://www.youtube.com/embed/IxEI6XAGFgE
+    - https://www.youtube.com/embed/KAGEf-ugqlQ
     - https://www.youtube.com/embed/TVQcynVJEOs
-layout: konzerte
-_comments:
-  current: Auf Startseite anzeigen
 ---
 
 Zum Thema „SCHATTEN und LICHT“ sangen wir einerseits phantastische Werke aus der Romantik (Schumann, Cornelius, Rheinberger). Diese wurden kontrastiert mit zeitgenössischen Chorstücken von nordischen Komponisten (Gjeilo, Jennefeldt, Nystedt). Die Konzerte wurden mit einer Uraufführung bereichert: Simone Sonderegger, langjähriges Chormitglied und erfahrene Poetin, hat ein aufwühlendes Gedicht zum Thema „Schatten und Licht“ geschrieben, das der Berner Musiker und Komponist Matthias Kohler für uns vertont hat.

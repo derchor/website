@@ -19,7 +19,7 @@ a.brand img {
 
 main {
   padding-right: 5%;
-  max-width: 35em; 
+  max-width: 40em; 
   width: 90%;
   float: right;
 }
@@ -47,13 +47,19 @@ body:before {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 65%;
+  width: 70%;
   z-index: -999;
 }
 
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 65em) {
   body:before {
-    width: 40em;
+    width: 45em;
+  }
+}
+
+@medai screen and (max-width: 45em) {
+  .background:after {
+    display: none;
   }
 }
 
