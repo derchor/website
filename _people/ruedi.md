@@ -1,5 +1,5 @@
 ---
-name: Rudolf Kaempf
+name: Rudolf Kämpf
 role: Dirigent
 image_path: /images/people/ruedi.png
 ---
