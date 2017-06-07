@@ -10,7 +10,6 @@ collections:
     title: Personen
     permalink: /personen/:name
     output: true
-    layout: people
 defaults:
 - scope:
     path: ''
