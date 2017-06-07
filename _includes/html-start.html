@@ -8,6 +8,7 @@
     {% assign background_color_rgb = page.background_color_rgb %}
     {% assign background_image_path = page.background_image_path %}
     {% assign background_opacity = page.background_opacity %}
+    {% assign font_color = page.font_color %}
     
     {% if page.url == "/" %}
       {% for concert in site.concerts %} 
@@ -15,6 +16,7 @@
           {% assign background_color_rgb = concert.background_color_rgb %}
           {% assign background_image_path = concert.background_image_path %}
           {% assign background_opacity = concert.background_opacity %}
+          {% assign font_color = concert.font_color %}
         {% endif %}
       {% endfor %}    
     {% endif %}
@@ -64,6 +66,10 @@
         linear-gradient(to right,
           {{background_color_transparent}} 0%,
           {{background_color_half_transparent}} 20%);
+    }
+
+    body {
+      color: {{font_color}};
     }
 
   </style>

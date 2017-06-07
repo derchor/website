@@ -6,9 +6,11 @@ collections:
     title: Konzerte
     permalink: /konzerte/:name
     output: true
-  posts:
-    title: Posts
+  people:
+    title: Personen
+    permalink: /personen/:name
     output: true
+    layout: people
 defaults:
 - scope:
     path: ''
@@ -17,10 +19,15 @@ defaults:
     background_color_rgb: 'rgb(0,0,0)'
     background_image_path: /images/chor.png
     background_opacity: 0.5
+    font_color: white
 - scope:
     type: 'concerts'
   values:
     layout: konzerte
+- scope:
+    type: 'people'
+  values:
+    layout: 'people'
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -29,8 +36,6 @@ description: 'Write an awesome description for your new site here. You can edit 
 '
 baseurl: ''
 url: ''
-twitter_username: jekyllrb
-github_username: jekyll
 markdown: kramdown
 gems:
 - jekyll-feed

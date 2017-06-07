@@ -5,7 +5,7 @@ name: Konzerttitel
 subtitle: Konzertsubtitel
 background_image_path: /images/chor.png
 background_color_rgb: 'rgb(0,0,0)'
-layout: konzerte
+background_opacity: 0.5
 images:
   - image_path:
 youtube:
