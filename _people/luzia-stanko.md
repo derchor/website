@@ -1,6 +1,8 @@
 ---
-name: Luzia Stanko
-role: Dirigent
-image_path: /images/people/ruedi.png
+name: Luzia Stankowski
+role: Dirigierassistentin
+image_path: /images/people/luzia.png
 description:
 ---
+
+
