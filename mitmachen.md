@@ -1,6 +1,5 @@
 ---
-title:
-concerts:
+concerts: 
 ---
 
 # Mitmachen
