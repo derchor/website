@@ -1,8 +1,6 @@
 ---
-title: something
+title:
 concerts:
-- 2011
-- 2014
 ---
 
 # Mitmachen
