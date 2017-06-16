@@ -1,20 +1,22 @@
 {% include html-start.html %}
-{% if page.image_path %}
-  <div style="
-  background-image: url({{page.image_path}});
-  background-position: center center;
-  width: 200px;
-  height: 200px;
-  background-size: cover;
-  float: left;
-  margin-right: 2em;
-  border-radius: 50%;
-  ">
-  </div>
-<h1>{{page.name}}</h1>
-<h2>{{page.role}}</h2>
-{% endif %}
+<div class="col-4"></div>
+<div class="col-8">
+  {% if page.image_path %}
+    <div style="
+    background-image: url({{page.image_path}});
+    background-position: center center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-right: 2em;
+    border-radius: 50%;
+    ">
+    </div>
+  <h1>{{page.name}}</h1>
+  <h2>{{page.role}}</h2>
+  {% endif %}
 
-<div class="editable">{{content}}</div>
-
+  <div class="editable">{{content}}</div>
+</div>
 {% include html-end.html %}     

@@ -1,0 +1,26 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid > * {
+  flex: 1 1 auto;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} { 
+    width: percentage($i * 1/12);
+  }
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: $break-point) {
+  [class*='col-'] {
+    width: 100%;
+    padding-right: 0;
+  }
+
+}

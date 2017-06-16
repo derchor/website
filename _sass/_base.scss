@@ -18,3 +18,10 @@ a {
 a.no-underline {
   text-decoration: none;
 }
+
+p {
+  margin: 0 0 1em;
+}
+
+$page-width: 65em;
+$break-point: 40em;

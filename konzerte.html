@@ -16,6 +16,7 @@ layout: default
 {% for concert in sorted_concerts %}
     <a href="{{ concert.url }}" class="concert-preview-link">
       <div class="concert-preview">
+        <div class="concert-preview-image" style="background-image: url({{concert.background_image_path}})"></div>
         <div class="concert-preview-title">{{concert.year}} - {{ concert.name }}</div>
         <div class="concert-preview-subtitle">{{concert.subtitle}}</div>      
       </div>

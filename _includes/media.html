@@ -1,0 +1,27 @@
+{% if page.images.first.image_path != '' %}
+  <div>
+    {% for video in page.youtubes %}
+      <iframe width="100%" height="300" src="{{video}}" frameborder="0" allowfullscreen></iframe>
+    {% endfor %}
+
+    <div class="gallery">
+      {% for image in page.images %}
+        <a href="{{image.image_path}}" style="background-image: url({{image.image_path}})"> </a>
+      {% endfor %}
+    </div>
+  </div>
+
+
+  <link rel="stylesheet" href="/public/gallery/magnific-popup.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/public/gallery/jquery.magnific-popup.min.js"></script>
+
+  <script type="text/javascript" charset="utf-8">
+    $('.gallery').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    gallery:{enabled:true}
+  });
+
+  </script>
+{% endif %}

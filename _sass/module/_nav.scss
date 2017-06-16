@@ -1,5 +1,5 @@
 nav {
-  margin: 1.5em 0 4em;
+  min-width: 20em;
 }
 
 nav ul {
@@ -13,21 +13,9 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 1em;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 nav a {
   text-decoration: none;
-}
-
-@media all and (max-width: 65em) {
-  header {
-    margin-bottom: -3em;
-  }
-  // nav {
-  //   margin-bottom: 10em;
-  // }
-  // .background {
-  //   top: 6em;
-  // }
 }

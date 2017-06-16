@@ -4,42 +4,34 @@ body {
 }
 
 header {
-  padding: 2em;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a.brand {
-  float: left;
-  width: 20em;
+  display: block;
+  margin-bottom: 1em;
+  height: 2em;
 }
+
 
 a.brand img {
   width: 100%;
 }
 
-main {
-  padding-right: 5%;
-  max-width: 40em; 
-  width: 90%;
-  float: right;
-}
-
-// .row {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-
-// .row > * {
-//   flex: 1 1 auto;
-//   max-width: 35em;
-//   padding: 1em;
-// }
-
 .container {
-  max-width: 65em;
+  max-width: $page-width;
   margin: auto;
+  padding: 2em;
   position: relative;
 }
+
+@media screen and (max-width: $break-point) {
+  .container { padding: 0.5em; }
+}
+
+
+
 
 body:before {
   content: '';
@@ -57,17 +49,14 @@ body:before {
   }
 }
 
-// @media screen and (max-width: 45em) {
-//   .background:after {
-//     display: none;
-//   }
-// }
-
-
 
 
 .background {
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   max-height: 90%;
   overflow: hidden;
@@ -76,7 +65,6 @@ body:before {
   -ms-filter:blur(1px);
   -moz-filter:blur(1px);
   -webkit-filter:blur(1px);
-
 }
 
 .background img {

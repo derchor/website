@@ -2,26 +2,48 @@ a.concert-preview-link {
   display: block;
   text-decoration: none;
   padding: 1em;
-  background-color: rgba(50,50,50,0.7);
+  background-color: rgba(30,30,30,0.7);
+  transition: all 200ms ease;
 }
 
 a.concert-preview-link:hover {
-  background-color: rgba(70,70,70,0.7);
+  background-color: rgba(50,50,50,0.7);
+  transform: scale(1.02);
+}
+
+$image-width: 8rem;
+
+@media screen and (max-width: $break-point) {
+  $image-width: 4rem;
+
+  .concert-preview {
+    font-size: 0.7em;
+  }
 }
 
 
 .concert-preview {
+  position: relative;
+
+  .concert-preview-image {
+    position: absolute;
+    top: -1em;
+    bottom: -1em;
+    left: -1em;
+    width: $image-width;
+    background-size: cover;
+    background-position: center center;
+  }
+
   .concert-preview-title {
+    margin-left: $image-width;
     text-transform: uppercase;
     font-size: 1.5em;
   }
   .concert-preview-subtitle {
+    margin-left: $image-width;
     opacity: 0.7;
   }
   width: 100%;
-}
-
-.concert-preview:hover {
-  
 }
 
