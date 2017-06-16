@@ -12,6 +12,9 @@ body {
   font-size: 18px
 }
 
+
+
+
 p {
   line-height: 150%;
   font-size: 1rem;
@@ -32,3 +35,14 @@ h2 {
   font-size: 2rem;
 }
 
+@media screen and (max-width: $break-point) {
+  body {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
