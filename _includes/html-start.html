@@ -37,6 +37,7 @@
     {% endcapture %}
 
 
+
     body {
        background-color: {{background_color}};
     }
@@ -44,6 +45,12 @@
     .background {
       background-color: {{background_color}};
       z-index: -1000;
+        filter:blur({{page.background_blur}});
+      -o-filter:blur({{page.background_blur}});
+      -ms-filter:blur({{page.background_blur}});
+      -moz-filter:blur({{page.background_blur}});
+      -webkit-filter:blur({{page.background_blur}});
+
     }
 
     .background:before {

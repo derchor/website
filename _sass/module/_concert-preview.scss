@@ -4,11 +4,30 @@ a.concert-preview-link {
   padding: 1em;
   background-color: rgba(30,30,30,0.7);
   transition: all 200ms ease;
+  position: relative;
 }
 
 a.concert-preview-link:hover {
   background-color: rgba(50,50,50,0.7);
   transform: scale(1.02);
+}
+
+
+
+a.concert-preview-link.is-empty:hover:before{
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  // height: 100%;
+  // width: 100%;
+  content: "Keine weiteren Infos";
+  z-index: 1;
+  background-color: black;
+  opacity: 0.8;
+
 }
 
 
@@ -50,6 +69,7 @@ a.concert-preview-link:hover {
     opacity: 0.7;
   }
   width: 100%;
+
 }
 
 @media screen and (max-width: $break-point) {

@@ -14,6 +14,7 @@ layout: default
 
 {% assign sorted_concerts = site.concerts | reverse %}
 {% for concert in sorted_concerts %}
+  {% if concert.empty != true%}
     <a href="{{ concert.url }}" class="concert-preview-link">
       <div class="concert-preview">
         <div class="concert-preview-image" style="background-image: url({{concert.background_image_path}})"></div>
@@ -21,5 +22,15 @@ layout: default
         <div class="concert-preview-subtitle">{{concert.subtitle}}</div>      
       </div>
     </a></p>
+  {% else %}
+    <a class="concert-preview-link is-empty">
+      <div class="concert-preview">
+        <div class="concert-preview-image" style="background-image: url({{concert.background_image_path}})"></div>
+        <div class="concert-preview-title">{{concert.year}} - {{ concert.name }}</div>
+        <div class="concert-preview-subtitle">{{concert.subtitle}}</div>      
+      </div>
+    </a></p>
+
+  {% endif %}
 {% endfor %}
 

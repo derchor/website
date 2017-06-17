@@ -5,8 +5,14 @@ subtitle: Subtitle
 background_image_path: ''
 background_color_rgb: rgb(0, 0, 0)
 background_opacity: 0.5
+font_color: white
 images:
 - image_path: ''
-youtube:
+youtubes:
 - url: ''
+flyer_path: ''
 ---
+
+Hier kommt der Text zum Konzert.
+
+Youtube URLS müssen die Embed URLs sein.

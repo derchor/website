@@ -14,3 +14,7 @@ Da drus leiteni ab:
 - Üses Filmmaterial no meh iboue (integrierte Player, ev. als Hintergrund)
 Leider kennemi gar nid us, was die hütige UI-Theorie so meine, wie e Homepage sött ufbout si.
 Was hesch du z'Gfüel, was würd sech abiete?
+
+## Next todo:
+
+* Konzert 04
