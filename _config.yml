@@ -22,7 +22,7 @@ defaults:
   values:
     layout: default
     background_color_rgb: rgb(0,0,0)
-    background_image_path: /images/schatten_und_licht_chor.jpg
+    background_image_path: "/images/schatten_und_licht_chor.jpg"
     background_opacity: 0.5
     background_blur: 1px
     font_color: white
