@@ -27,12 +27,12 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 120%;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 @media screen and (max-width: $break-point) {
@@ -40,9 +40,9 @@ h2 {
     font-size: 13px;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
