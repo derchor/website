@@ -23,14 +23,15 @@
 
   {% if page.songs.first.audio_path != '' %}
     <h2>Hörbeispiele</h2>
-    <p class="audio-list">
+    <div class="audio-list">
       {% for song in page.songs %}
         <div class="audio">
           <div class="audio-title">{{song.title}}</div>
           <audio src="{{song.audio_path}}" controls preload="metadata"></audio>
         </div> 
       {% endfor %}
-    </p>
+    </div>
+
     <script type="text/javascript">
       var songs = document.getElementsByTagName('audio');
 
