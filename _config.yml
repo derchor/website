@@ -27,8 +27,8 @@ defaults:
     background_blur: 1px
     font_color: white
     songs:
-      - title: ''
-        audio_path: ''
+    - title: ''
+      audio_path: ''
 - scope:
     path: ''
     type: concerts
