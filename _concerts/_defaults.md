@@ -13,7 +13,7 @@ youtubes:
 - url: ''
 flyer_path: ''
 songs:
-  - audio_path: ''
+- audio_path: ''
 ---
 
 Hier kommt der Text zum Konzert.
