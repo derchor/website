@@ -19,17 +19,43 @@
     <p><a href="{{page.flyer_path}}">Flyer</a></p>
   {% endif %}
 
+
+
+  {% if page.songs.first.audio_path != '' %}
+    <h2>Hörbeispiele</h2>
+    <p class="audio-list">
+      {% for song in page.songs %}
+        <div class="audio">
+          <div class="audio-title">{{song.title}}</div>
+          <audio src="{{song.audio_path}}" controls preload="metadata"></audio>
+        </div> 
+      {% endfor %}
+    </p>
+    <script type="text/javascript">
+      var songs = document.getElementsByTagName('audio');
+
+      pauseOtherSongs = function (e){
+        for(var i = 0; i < songs.length; i++) {
+          if(e.target != songs[i]) {
+            songs[i].pause();
+          }
+        }
+      }
+      for(var i = 0; i < songs.length; i++) {
+        songs[i].addEventListener('playing',pauseOtherSongs)
+      }
+    </script>
+  {% endif %}
+
+
+
   {% for video in page.youtubes %}
     {% if video.url != '' %}
     <iframe width="100%" height="300" src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
     {% endif %}
   {% endfor %}
-
-  <p>Agnus Dei<br><audio src="/downloads/concerts/2007/9 Agnus_Dei_Sopran.mp3" controls></audio></p>
-
-
-
 </div>
+
 
 
 
