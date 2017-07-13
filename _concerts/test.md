@@ -1,4 +1,5 @@
 ---
+title: Test
 ---
 
 Hier kommt der Text zum Konzert.
