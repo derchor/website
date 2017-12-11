@@ -1,17 +1,13 @@
 {% include html-start.html %}   
-<div class="col-4"></div>
-<div class="col-8">
-  <h1><small>{{page.year}}</small><br></h1>
-  <h1>{{page.name}}</h1>
+<div>
+  <h1><small>{{page.year}}</small><br>{{page.name}}</h1>
   <h2>{{page.subtitle}}</h2>
 </div>
 
 
-<div class="col-4"></div>
-<div class="col-8">{% include image-gallery.html %}</div>
+<div>{% include image-gallery.html %}</div>
 
-<div class="col-4"></div>
-<div class="col-8">
+<div>
 
   {{content}}
 

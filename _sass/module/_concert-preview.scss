@@ -27,7 +27,6 @@ a.concert-preview-link.is-empty:hover:before{
   z-index: 1;
   background-color: black;
   opacity: 0.8;
-
 }
 
 
@@ -51,7 +50,7 @@ a.concert-preview-link.is-empty:hover:before{
 
 .concert-preview {
   position: relative;
-
+  
   .concert-preview-image {
     position: absolute;
     top: -1em;

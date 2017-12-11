@@ -9,16 +9,14 @@
   <style type="text/css" media="screen">
 
     {% assign background_color_rgb = page.background_color_rgb %}
-    {% assign background_image_path = page.background_image_path %}
-    {% assign background_opacity = page.background_opacity %}
+    {% assign theme_image_path = page.theme_image_path %}
     {% assign font_color = page.font_color %}
     
     {% if page.url == "/" %}
       {% for concert in site.concerts %} 
         {% if concert.title == page.concert %}
           {% assign background_color_rgb = concert.background_color_rgb %}
-          {% assign background_image_path = concert.background_image_path %}
-          {% assign background_opacity = concert.background_opacity %}
+          {% assign theme_image_path = concert.theme_image_path %}
           {% assign font_color = concert.font_color %}
         {% endif %}
       {% endfor %}    
@@ -30,13 +28,6 @@
     {% capture background_color_transparent  %}
       {{ background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',0)' }}
     {% endcapture %}
-    {% capture background_color_half_transparent  %}
-      {% if background_opacity %}
-        {{ background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',opacity)' | replace: "opacity", background_opacity}}
-      {%else %}
-        {{ background_color_rgb |  replace: 'rgb', 'rgba' | replace: ")", ',0.3)' }}
-      {% endif %}
-    {% endcapture %}
 
 
 
@@ -44,39 +35,24 @@
        background-color: {{background_color}};
     }
 
-    .background {
-      background-color: {{background_color}};
-      z-index: -1000;
-        filter:blur({{page.background_blur}});
-      -o-filter:blur({{page.background_blur}});
-      -ms-filter:blur({{page.background_blur}});
-      -moz-filter:blur({{page.background_blur}});
-      -webkit-filter:blur({{page.background_blur}});
 
-    }
-
-    .background:before {
+    .theme:before {
       background-image:
-        linear-gradient(
-          {{background_color}}, 
-          {{background_color_transparent}}
+        linear-gradient( to bottom, 
+          {{background_color}} 0%,
+          {{background_color_transparent}} 25%
         );
     }
 
-    .background:after {
+        .theme:after {
       background-image:
-        linear-gradient(
-          {{background_color_transparent}},
+        linear-gradient( to bottom, 
+          {{background_color_transparent}} 60%,
           {{background_color}}
         );
     }
 
-    body:before {
-      background:
-        linear-gradient(to right,
-          {{background_color_transparent}} 0%,
-          {{background_color_half_transparent}} 20%);
-    }
+
 
     body {
       color: {{font_color}};
@@ -85,14 +61,13 @@
   </style>
 </head>
 <body>
-    <div class="background">
-      <img src="{{background_image_path}}" alt="">
+    <div class="theme" style="background-image: url({{theme_image_path}}">
     </div>
     <div class="container">
 
-      <header class="grid">
-        <a href="/" class="brand col-4"><img src="/images/logo.svg" alt=""></a>
-        <nav class="col-8">
+      <header>
+        <a href="/" class="brand"><img src="/images/logo.svg" alt=""></a>
+        <nav class="">
           <ul>
             <li><a href="/" title="">DerChor</a></li>
             <li><a href="/konzerte" title="">Konzerte</a></li>
@@ -100,4 +75,4 @@
           </ul>
         </nav>
       </header>
-      <main class="grid">
+      <main>

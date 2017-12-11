@@ -1,10 +1,6 @@
 .audio-list {
   width: 100%;
   max-width: 100%;
-  background-color: #333;
-  color: whitw;
-  padding: 1em;
-  border-radius: 3px;
 }
 .audio {
   display: flex;
@@ -21,5 +17,6 @@
   audio {
     flex: 1 0 auto;
     background-color: #95B9C7;
+    max-width: 100%;
   }
 }
