@@ -1,6 +1,7 @@
 ---
 title: der chor
 timezone: UTC
+permalink: /posts/:year/:title.html
 collections:
   concerts:
     title: Concerts
@@ -10,9 +11,6 @@ collections:
     title: Personen
     output: true
     permalink: "/personen/:name"
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
@@ -21,14 +19,14 @@ defaults:
     path: ''
   values:
     layout: default
-    background_color_rgb: rgb(0,0,0)
-    theme_image_path: "/images/schatten_und_licht_chor.jpg"
-    background_opacity: 0.5
-    background_blur: 1px
-    font_color: white
+    featured_image_path: ''
     songs:
     - title: ''
       audio_path: ''
+    youtube_videos:
+    - url: ''
+    images:
+    - image_path: ''
 - scope:
     path: ''
     type: concerts
@@ -39,7 +37,12 @@ defaults:
     type: people
   values:
     layout: people
-email: your-email@domain.com
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: default
+email: roland.studer@gmail.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.

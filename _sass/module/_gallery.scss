@@ -10,7 +10,8 @@
 
 .gallery a {
   width: 25%;
-  height: 10em;
+  min-width: 3rem;
+  height: 8rem;
   flex: 1 1 auto;
   overflow: hidden;
   display: block;

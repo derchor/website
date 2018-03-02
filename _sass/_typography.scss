@@ -7,32 +7,41 @@
 body {
     // font-family: 'Lucida Sans Unicode', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 
-  font-family: 'Lucida Grande', 'Oxygen', sans-serif;
+  font-family: 'Roboto', 'Oxygen', sans-serif;
   font-weight: 400;
-  font-size: 18px
+  font-size: 20px;
 }
 
 p {
   line-height: 150%;
-  font-size: 1rem;
+  max-width: 40rem;
 }
 
 h1, h2 {
   text-transform: uppercase;
   font-weight: 300;
-  letter-spacing: 0.1em;
+  letter-spacing: 2px;
 }
 
 h1 {
+  padding-top: 0;
+  margin-top: 0;
   font-size: 3rem;
   line-height: 120%;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: $break-point) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: $break-point-mobile) {
   body {
     font-size: 13px;
   }
@@ -42,4 +51,13 @@ h2 {
   h2 {
     font-size: 1.3rem;
   }
+}
+
+.border-top {
+  border-top: 1px solid black;
+}
+
+
+.no-margin {
+  margin: 0 0 0 0;
 }

@@ -1,77 +1,25 @@
-a.concert-preview-link {
-  display: block;
-  text-decoration: none;
-  padding: 1em;
-  background-color: rgba(30,30,30,0.7);
-  transition: all 200ms ease;
-  position: relative;
+.concert-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-
-a.concert-preview-link:hover {
-  background-color: rgba(50,50,50,0.7);
-  transform: scale(1.02);
-}
-
-
-
-a.concert-preview-link.is-empty:hover:before{
-  position: absolute;
-  padding: 1em;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  // height: 100%;
-  // width: 100%;
-  content: "Keine weiteren Infos";
-  z-index: 1;
-  background-color: black;
-  opacity: 0.8;
-}
-
-
-@mixin styling($image-width) {
-    .concert-preview {
-      .concert-preview-image {
-        width: $image-width;
-      }
-
-      .concert-preview-title {
-        margin-left: $image-width;
-      }
-
-      .concert-preview-subtitle {
-        margin-left: $image-width;
-      }
-    }
-}
-
-@include styling($image-width: 8rem);
-
 .concert-preview {
-  position: relative;
-  
+  // background-color: rgb(39,  74,  115 );
+  // color: white;
+  width: 11rem;
+  max-width: 45%;
+  min-width: 10rem;
+  margin: 0.5rem 1rem 1rem 0;
+  text-decoration: none;
+  overflow: hidden;
+
   .concert-preview-image {
-    position: absolute;
-    top: -1em;
-    bottom: -1em;
-    left: -1em;
-    background-size: cover;
+    height: 11rem;
     background-position: center center;
+    background-size: cover;
   }
-
   .concert-preview-title {
-    text-transform: uppercase;
-    font-size: 1.5em;
+    padding: 1rem;
+    font-size: 1rem;
   }
-  .concert-preview-subtitle {
-    opacity: 0.7;
-  }
-  width: 100%;
-
 }
-
-@media screen and (max-width: $break-point) {
-  @include styling($image-width: 4rem);
-}
-

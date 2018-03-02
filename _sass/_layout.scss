@@ -1,79 +1,110 @@
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
 
-
-a.brand img {
-  width: 100%;
-  max-height: 2em;
-  margin-left: -0.7em
-}
-
-@media screen and (max-width: $break-point) {
-  .container { padding: 1.5, 0.5em; }
-}
-
-main {
-  padding-top: 12em;
-  max-width: 40rem;
-
-}
-
-.theme {
-  z-index: -1000;
-  content: '';
   position: absolute;
-  width: 100%;
-  top: 1.5em;
-  left: 0;
-  height: 25em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  opacity: 0.9;
-} 
-
-.theme:after {
-  z-index: -999;
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
   bottom: 0;
-  left: 0;
-} 
-
-.theme:before {
-  z-index: -999;
-  content: '';
-  position: absolute;
-  right: 0;
   top: 0;
-  bottom: 0;
   left: 0;
+  right: 0;
+
+}
+
+* {
+  box-sizing: border-box;
 }
 
 header {
+  width: 15rem;
+  margin-right: 3rem;
+  padding-right: 3rem;
+
+  nav {
+    li {
+      display: block;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+}
+
+main {
+  width: 100%;
+  flex: 1 1 auto;
+  padding: 3rem 1rem 1rem 1rem;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} 
-
-header .brand {
-  max-width: 20em;
 }
 
-.container {
-  position: absolute;
-  right: 0;
-  z-index: 100;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-  max-width: 80em;
+.brand {
+  padding: 3rem 0 0rem 2rem;
 }
 
+.featured-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: $break-point-mobile) {
+  .desktop-only {
+    display: none;
+  }
+
+  .featured-image {
+    margin: -3rem -1rem 0rem -1rem;
+  }
+
+
+}
+
+@media screen and (min-width: $break-point-mobile) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: $break-point) {
+  body {
+    flex-direction: column;
+
+    header {
+      z-index: 100;
+      background-color: white;
+      margin: 0rem;
+      padding: 0;
+      width: 100%;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    }
+    .brand {
+      display: none;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: space-around;
+      li {
+        margin: 1rem 0.5rem;
+      } 
+    }
+  }
+
+}
 

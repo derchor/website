@@ -1,13 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  background-color: black;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
+
 
 a {
   color: inherit;
@@ -20,12 +12,23 @@ a.no-underline {
 }
 
 p {
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
 }
 
 img {
   max-width: 100%;
+  margin-bottom: 1rem;
 }
 
-$page-width: 65em;
-$break-point: 40em;
+$page-width: 65rem;
+$break-point: 70rem;
+$break-point-mobile: 40rem;
+
+.shadow {
+    // box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+iframe {
+	max-width: 60rem;
+}

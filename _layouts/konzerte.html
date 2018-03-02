@@ -1,60 +1,32 @@
 {% include html-start.html %}   
-<div>
-  <h1><small>{{page.year}}</small><br>{{page.name}}</h1>
-  <h2>{{page.subtitle}}</h2>
-</div>
 
+<div class="grid">
+    {% if page.featured_image_path != '' %}
+    <div class="grid-width-5 featured-image">
+      <img src="{{page.featured_image_path}}" alt="" class="shadow">
 
-<div>{% include image-gallery.html %}</div>
-
-<div>
-
-  {{content}}
-
-  {% if page.flyer_path != '' %}
-    <p><a href="{{page.flyer_path}}">Flyer</a></p>
+    <div class="media desktop-only">
+      <div>{% include image-gallery.html %}</div>
+    </div>
+  </div>
   {% endif %}
+  <div class="editable grid-width-7">
+    <p class="no-margin">{{page.year}}</p>
+    <h1>{{page.name}}</h1>
+    <h2>{{page.subtitle}}</h2>
 
+    {{content}}
 
-
-  {% if page.songs.first.audio_path != '' %}
-    <h2>Hörbeispiele</h2>
-    <div class="audio-list">
-      {% for song in page.songs %}
-        <div class="audio">
-          <div class="audio-title">{{song.title}}</div>
-          <audio src="{{song.audio_path}}" controls preload="metadata"></audio>
-        </div> 
-      {% endfor %}
+    <div>
+      {% include songs-gallery.html %}
+      {% include video-gallery.html %}
     </div>
 
-    <script type="text/javascript">
-      var songs = document.getElementsByTagName('audio');
-
-      pauseOtherSongs = function (e){
-        for(var i = 0; i < songs.length; i++) {
-          if(e.target != songs[i]) {
-            songs[i].pause();
-          }
-        }
-      }
-      for(var i = 0; i < songs.length; i++) {
-        songs[i].addEventListener('playing',pauseOtherSongs)
-      }
-    </script>
-  {% endif %}
-
-
-
-  {% for video in page.youtubes %}
-    {% if video.url != '' %}
-    <iframe width="100%" height="300" src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
-  {% endfor %}
+    <div class="media mobile-only">
+      <div>{% include image-gallery.html %}</div>
+    </div>
+  </div>
 </div>
-
-
-
 
 {% include html-end.html %}     
 

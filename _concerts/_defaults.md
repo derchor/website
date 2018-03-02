@@ -1,4 +1,17 @@
 ---
+title: 
+year: 
+name: 
+subtitle: 
+featured_image_path: 
+flyer_path: 
+images:
+- image_path: 
+youtube_videos:
+- url:
+songs:
+- title:
+  audio_path:
 ---
 
 Hier kommt der Text zum Konzert.

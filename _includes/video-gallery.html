@@ -1,0 +1,5 @@
+{% for video in page.youtube_videos %}
+  {% if video.url != '' %}
+  <iframe src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
+  {% endif %}
+{% endfor %}
