@@ -1,7 +1,6 @@
 ---
 title: der chor
 timezone: UTC
-permalink: /posts/:year/:title.html
 collections:
   concerts:
     title: Concerts
@@ -11,6 +10,9 @@ collections:
     title: Personen
     output: true
     permalink: "/personen/:name"
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -42,6 +44,7 @@ defaults:
     type: posts
   values:
     layout: default
+permalink: "/posts/:year/:title.html"
 email: roland.studer@gmail.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search

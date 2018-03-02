@@ -1,6 +1,7 @@
 ---
-title:  Klingende Weihnachten
-featured_image_path: /images/chor.png
+title: Klingende Weihnachten
+date: 2017-12-24 00:00:00 Z
+featured_image_path: "/images/chor.png"
 ---
 
 Am Heiligabend 2017 strahlte SRF die Sendung „Klingende Weihnachten“ aus. Wir freuen uns, dass wir zur weihnachtlichen Stimmung beitragen konnten. Mehr dazu:
