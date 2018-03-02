@@ -1,11 +1,19 @@
 {% if page.images.first.image_path != '' %}
   <div>
-    <div class="gallery">
-      {% for image in page.images limit:3 %}
+    <div id="{{include.id}}" class="gallery">
+      <!-- show  first four images -->
+      {% for image in page.images limit:4 %} 
         <a href="{{image.image_path}}" style="background-image: url({{image.image_path}})"></a>
       {% endfor %}
-      {% for image in page.images offset:3 %}
-        <a href="{{image.image_path}}" style="display: none"></a>
+      <!-- show  placeholder for further images -->
+      {% for image in page.images offset:4 | limit: 1 %}
+        <a href="{{image.image_path}}" style="background-image: url({{image.image_path}})">
+          <div class="gallery-more">{{ page.images.size | minus: 4 }} weitere</div>
+        </a>
+      {% endfor %}
+      <!-- hide remaining images -->
+      {% for image in page.images offset: 5 %}
+       <a href="{{image.image_path}}" style="display: none;"></a>
       {% endfor %}
     </div>
   </div>
@@ -16,7 +24,7 @@
   <script src="/public/gallery/jquery.magnific-popup.min.js"></script>
 
   <script type="text/javascript" charset="utf-8">
-    $('.gallery').magnificPopup({
+    $('#{{include.id}}').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     gallery:{enabled:true}

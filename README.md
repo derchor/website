@@ -17,10 +17,7 @@ Was hesch du z'Gfüel, was würd sech abiete?
 
 ## Next todo:
 
-* Konzert 04
-* Andere Events auch einbauen (Slowenien, SRF usw.)
-* Mitmachen in Kontakt umbenennen -> Sicher Kontaktangaben dort deponieren, wir können auch engagiert werden.
-* Facebook verlinken
-* Konzert einbinden auf Startseite mit Zusammenfassung
 * Download Verzeichnis bleibt
 * Elemente +3 weitere Bilder machen
+* Konzert skript einbauen
+* relative Pfade ermöglichen.
