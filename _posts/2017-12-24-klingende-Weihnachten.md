@@ -1,5 +1,6 @@
 ---
-title:  Klingende Weihnachten
+title: Klingende Weihnachten
+date: 2017-12-24 00:00:00 Z
 featured_image_path: ''
 ---
 

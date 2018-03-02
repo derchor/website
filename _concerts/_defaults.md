@@ -1,5 +1,4 @@
 ---
-title: 
 year: 
 name: 
 subtitle: 
@@ -8,10 +7,10 @@ flyer_path:
 images:
 - image_path: 
 youtube_videos:
-- url:
+- url: 
 songs:
-- title:
-  audio_path:
+- title: 
+  audio_path: 
 ---
 
 Hier kommt der Text zum Konzert.
