@@ -8,7 +8,4 @@ Der Chor ist komplett und die Proben f&uuml;r unser Projekt im 2018 bereits weit
 Du kannst dich per E-Mail melden, wenn du Fragen hast: [info@derchor.ch](javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,64,100,101,114,99,104,111,114,46,99,104))).
 {: .paragraph_style}
 
-[Zweiter (bzw. erster) Untertitel: KONTAKT: DerChor ist erreichbar &uuml;ber					[
-
-<font color="#0066cc">info@derchor.ch</font>](javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,64,100,101,114,99,104,111,114,46,99,104))). Unsere Pr&auml;sidenten Simone Sonderegger und Nils B&uuml;rk geben gerne Auskunft. DerChor probt w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&auml;geligasse 7 in Bern. (Karte) --- und dann erst: MITMACHEN]
-{: .paragraph_style}
+[Zweiten (bzw. ersten) Untertitel machen: KONTAKT: DerChor ist erreichbar &uuml;ber [info@derchor.ch](mailto:info@derchor.ch). Unsere Pr&auml;sidenten Simone Sonderegger und Nils B&uuml;rk geben gerne Auskunft. DerChor probt w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&auml;geligasse 7 in Bern. (Karte) — und dann erst: MITMACHEN]
