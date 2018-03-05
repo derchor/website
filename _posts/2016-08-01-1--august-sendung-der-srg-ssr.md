@@ -1,7 +1,7 @@
 ---
 title: 1. August-Sendung der SRG SSR
-date: 2016-08-01 00:00:00
-featured_image_path:
+date: 2016-08-01 00:00:00 Z
+featured_image_path: 
 ---
 
 &nbsp;
