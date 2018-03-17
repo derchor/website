@@ -4,8 +4,9 @@ permalink: "/vergangenes/"
 ---
 
 <div class="editable">
-<p>Seit 2002 hat Der CHOR fünfzehn grosse Konzertprojekte umgesetzt.</p>    
-</div>
+	      <p><strong>DerChor</strong> hat sich zu einem festen Bestandteil der Berner Kulturszene gemausert. So haben wir in den letzten 15 Jahren nicht nur rund 30 Konzerte vor einem stetig wachsenden Stammpublikum gegeben, wir wurden auch f&uuml;r verschiedenste Anl&auml;sse gebucht: etwa f&uuml;r das SBB-Adventssingen in der Berner Bahnhofshalle, Adventsgottesdienste in den Kirchen in Frauenkappelen und Wabern, TV-Auftritte f&uuml;r die SRG SSR sowie nat&uuml;rlich f&uuml;r zahlreiche private Anl&auml;sse.<br /><br /><strong>DerChor</strong> ist nicht nur in der Region Bern anzutreffen, wir geben auch regelm&auml;ssig Konzerte in Z&uuml;rich. Dar&uuml;ber hinaus reisten wir im Mai 2017 erstmals ins Ausland: Dank der &auml;usserst bereichernden Zusammenarbeit mit dem slowenischen Orchester Cantabile hatten wir die Gelegenheit, in Ljubljana und Logatec aufzutreten und dort das Publikum zu verzaubern.</p>
+	      <p>Seit 2002 hat <strong>DerChor</strong> f&uuml;nfzehn grosse Konzertprojekte umgesetzt.</p>
+	    </div>
 
 <div class="grid grid-large">
   <div class="grid-width-9">
@@ -15,7 +16,7 @@ permalink: "/vergangenes/"
       {% for concert in sorted_concerts %}
         <a href="{{ concert.url }}" class="concert-preview concert-preview-link shadow">      
           <div class="concert-preview-image" style="background-image: url({{concert.featured_image_path}})"></div>
-          <div class="concert-preview-title"><small>{{concert.year}}</small><br>{{ concert.name }}</div>
+          <div class="concert-preview-title"><small>{{concert.year}}</small><br />{{ concert.name }}</div>
         </a>
       {% endfor %}
     </div>
@@ -26,7 +27,7 @@ permalink: "/vergangenes/"
     <div class="concert-list">
       {% for post in site.posts %}
         <a href="{{ post.url }}" class="concert-preview concert-preview-link shadow">      
-          <div class="concert-preview-title"><small>{{post.date | date: "%Y"}}</small><br>{{ post.title }}</div>
+          <div class="concert-preview-title"><small>{{post.date | date: "%Y"}}</small><br />{{ post.title }}</div>
         </a>
       {% endfor %}
     </div>
