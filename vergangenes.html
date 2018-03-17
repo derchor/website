@@ -14,8 +14,8 @@ permalink: "/vergangenes/"
     <div class="concert-list">
       {% assign sorted_concerts = site.concerts | reverse %}
       {% for concert in sorted_concerts %}
-        <a href="{{ concert.url }}" class="concert-preview concert-preview-link shadow">      
-          <div class="concert-preview-image" style="background-image: url({{concert.featured_image_path}})"></div>
+        <a href="{{ concert.url | relative_url }}" class="concert-preview concert-preview-link shadow">      
+          <div class="concert-preview-image" style="background-image: url({{concert.featured_image_path | relative_url }})"></div>
           <div class="concert-preview-title"><small>{{concert.year}}</small><br />{{ concert.name }}</div>
         </a>
       {% endfor %}
@@ -26,7 +26,7 @@ permalink: "/vergangenes/"
     <h2 class="">Anderes</h2>
     <div class="concert-list">
       {% for post in site.posts %}
-        <a href="{{ post.url }}" class="concert-preview concert-preview-link shadow">      
+        <a href="{{ post.url | relative_url }}" class="concert-preview concert-preview-link shadow">      
           <div class="concert-preview-title"><small>{{post.date | date: "%Y"}}</small><br />{{ post.title }}</div>
         </a>
       {% endfor %}

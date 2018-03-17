@@ -5,18 +5,18 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ "/styles/main.css" | relative_url }}">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 </head>
 <body>
   <header class="">
-    <a href="/" class="brand"><img src="/images/logo.jpg" alt=""></a>
+    <a href="/" class="brand"><img src="{{"/images/logo.jpg" | relative_url }}" alt=""></a>
     <nav>
       <ul>
-        <li><a href="/" title="">DerChor</a></li>
-        <li><a href="/vergangenes" title="">Vergangenes</a></li>
-        <li><a href="/kontakt" title="">Kontakt</a></li>
+        <li><a href="{{ "/" | relative_url }}" title="">DerChor</a></li>
+        <li><a href="{{ "/vergangenes" | relative_url }}" title="">Vergangenes</a></li>
+        <li><a href="{{ "/kontakt" | relative_url }}" title="">Kontakt</a></li>
         <li> <a href="https://www.facebook.com/derchor" title="derchor auf facebook"><i class="fab fa-facebook"></i></a></li>
       </ul>
 

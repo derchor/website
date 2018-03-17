@@ -3,7 +3,7 @@
 <div class="grid">
     {% if page.featured_image_path != '' %}
     <div class="grid-width-6 featured-image">
-      <img src="{{page.featured_image_path}}" alt="" class="shadow">
+      <img src="{{page.featured_image_path | relative_url }}" alt="" class="shadow">
 
     <div class="media desktop-only">
       <div>{% include image-gallery.html id="gallery-left" %}</div>

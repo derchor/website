@@ -3,7 +3,7 @@
 <div class="col-8">
   {% if page.image_path %}
     <div style="
-    background-image: url({{page.image_path}});
+    background-image: url({{page.image_path | relative_url }});
     background-position: center center;
     width: 200px;
     height: 200px;
