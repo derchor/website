@@ -19,5 +19,6 @@ Was hesch du z'Gfüel, was würd sech abiete?
 
 * Download Verzeichnis bleibt
 * Elemente +3 weitere Bilder machen
-* Konzert skript einbauen
+* Konzert Reservations skript einbauen
 * relative Pfade ermöglichen.
+* Deployment auf FTP ermöglichen / testen -> siehe: https://app.buddy.works

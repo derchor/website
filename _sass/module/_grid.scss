@@ -14,12 +14,15 @@
 @for $i from 1 through 12 {
   .grid-width-#{$i} { 
     width: percentage($i * 1/12);
+    &.is-unpadded { padding-right: 0; margin-right: 0;}
   }
 }
 
 [class*='grid-width-'] {
   padding-right: 3rem;
 }
+
+
 
 @media screen and (max-width: 40rem) {
   .grid > * {
