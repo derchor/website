@@ -18,7 +18,9 @@ Was hesch du z'Gfüel, was würd sech abiete?
 ## Next todo:
 
 * Download Verzeichnis bleibt
-* Elemente +3 weitere Bilder machen
-* Konzert Reservations skript einbauen
-* relative Pfade ermöglichen.
+* Konzert Reservations skript einbauen -> dont touch this
 * Deployment auf FTP ermöglichen / testen -> siehe: https://app.buddy.works
+* Post View machen
+* Vergangenes Zusatznavigation?
+* Konzert auf erste Seite
+* Link auf Reservationstool ermöglichen
