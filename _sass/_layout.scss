@@ -63,6 +63,10 @@ main {
   .mobile-only {
     display: none;
   }
+
+  main {
+    margin-top: 2em;
+  }
 }
 
 
@@ -82,7 +86,7 @@ main {
     }
 
     main {
-      margin-top: 1rem;
+      margin-top: 3rem;
       margin-left: 0;
     }
     .brand {
