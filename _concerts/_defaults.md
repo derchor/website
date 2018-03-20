@@ -2,8 +2,8 @@
 year: 
 name: 
 subtitle: 
-featured_image_path:
-current_concert: false 
+featured_image_path: 
+current_concert: false
 flyer_path: 
 images:
 - image_path: 
@@ -13,13 +13,13 @@ songs:
 - title: 
   audio_path: 
 dates:
-- datum: Donnerstag, 
+- datum: Donnerstag,
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
-- datum: Freitag, 
+- datum: Freitag,
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
-- datum: Samstag, 
+- datum: Samstag,
   zeit: 20:00 Uhr
   ort: Kirche Oberstrass, Stapferstrasse 58, Zürich
 reservation-link: ''
