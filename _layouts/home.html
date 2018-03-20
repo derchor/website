@@ -1,0 +1,34 @@
+{% include html-start.html %}   
+
+{% if page.featured_image_path != '' %}
+	<div class="grid grid-large">
+	  {% if page.featured-image_path != '' %}<div class="grid-width-5 featured-image">
+	    <img src="{{page.featured_image_path | relative_url}}" alt="" class="shadow" />
+	  </div>{% endif %}
+	  <div class="grid-width-7 text-content">
+	    <div>
+          <p class="no-margin">{{page.date | date: '%Y'}}</p>
+	      {{content}}
+	    </div>
+	    <div>&nbsp;</div>
+	    <div class="media desktop-only">
+	      <div>
+		      {% include image-gallery.html id="gallery-left" %}
+	      </div>
+	    </div>
+	  </div>
+	</div>
+{% else %}
+	<div class="grid">
+	  <div class="grid-width-12">
+	  	<p class="no-margin">{{page.date | date: '%Y'}}</p>
+	  	<h1>{{page.title}}</h1>
+	    {{content}}
+	    <div class="media mobile-only">
+	      <div>{% include media-gallery.html %}</div>
+	    </div>
+	  </div>
+	</div>
+{% endif %}
+
+{% include html-end.html %}
