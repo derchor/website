@@ -1,7 +1,7 @@
 {% include html-start.html %}   
 
 {% for concert in site.concerts %}
-{% if page.concert == concert.title %}
+{% if concert.current_concert %}
 <div class="grid grid-large">
 	{% if concert.featured-image_path != '' %}
 	<div class="grid-width-5 featured-image">
@@ -15,10 +15,14 @@
 
 			{% for event in concert.dates %}
 				<div class="concert-date">
-					{{event.date-time}}<br>
-					{{event.place}}
+					<strong>{{event.datum }} | {{event.zeit}}</strong><br>
+					{{event.ort}}
 				</div>
 			{% endfor %}
+
+			{% if concert.reservation-link %} 
+			<a href="{{concert.reservation-link}}" class="reservation-link">Jetzt Reservieren</a>
+			{% endif %}
 
 			{{concert.content}}
 

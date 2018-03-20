@@ -20,16 +20,12 @@
 	  </div>
 	</div>
 {% else %}
-	<div class="grid">
-	  <div class="grid-width-12">
-	  	<p class="no-margin">{{page.date | date: '%Y'}}</p>
-	  	<h1>{{page.title}}</h1>
-	    {{content}}
-	    <div class="media mobile-only">
-	      <div>{% include media-gallery.html %}</div>
-	    </div>
-	  </div>
-	</div>
+  	<p class="no-margin">{{page.date | date: '%Y'}}</p>
+  	<h1>{{page.title}}</h1>
+    {{content}}
+    <div class="media mobile-only">
+      <div>{% include media-gallery.html %}</div>
+    </div>
 {% endif %}
 
 {% include html-end.html %}

@@ -39,6 +39,7 @@ h2 {
   body {
     font-size: 16px;
   }
+
 }
 
 @media screen and (max-width: $break-point-mobile) {
@@ -51,6 +52,11 @@ h2 {
   h2 {
     font-size: 1.3rem;
   }
+
+  .text-content {
+    min-width: auto;
+  }
+
 }
 
 .border-top {
