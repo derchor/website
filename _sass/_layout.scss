@@ -51,9 +51,12 @@ main {
   }
 
   .featured-image {
-    margin: -3rem -1rem 0rem -1rem;
+    margin: 1rem -1rem 0rem -1rem;
   }
 
+  main {
+    margin-top: -2em;
+  }
 
 }
 
@@ -84,7 +87,6 @@ main {
     }
 
     main {
-      margin-top: 3rem;
       margin-left: 0;
     }
     .brand {
