@@ -37,8 +37,8 @@ defaults:
     current_concert: false
     _comments:
       current_concert: Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes
-      reservation-link: Sobald angegeben, erscheint der Reservationslink (nur auf Sttartseite)
-
+      reservation-link: Sobald angegeben, erscheint der Reservationslink (nur auf
+        Sttartseite)
 - scope:
     path: ''
     type: people
