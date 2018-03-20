@@ -1,34 +1,62 @@
 {% include html-start.html %}   
 
+{% for concert in site.concerts %}
+{% if page.concert == concert.title %}
+<div class="grid grid-large">
+	{% if concert.featured-image_path != '' %}
+	<div class="grid-width-5 featured-image">
+		<img src="{{concert.featured_image_path | relative_url}}" alt="" class="shadow" />
+	</div>{% endif %}
+	<div class="grid-width-7 text-content">
+		<div>
+			<h2>Aktuelles Projekt</h2>
+			<h1>{{concert.name}}</h1>
+			<h2>{{concert.subtitle}}</h2>
+
+			{% for event in concert.dates %}
+				<div class="concert-date">
+					{{event.date-time}}<br>
+					{{event.place}}
+				</div>
+			{% endfor %}
+
+			{{concert.content}}
+
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
 {% if page.featured_image_path != '' %}
-	<div class="grid grid-large">
-	  {% if page.featured-image_path != '' %}<div class="grid-width-5 featured-image">
-	    <img src="{{page.featured_image_path | relative_url}}" alt="" class="shadow" />
-	  </div>{% endif %}
-	  <div class="grid-width-7 text-content">
-	    <div>
-          <p class="no-margin">{{page.date | date: '%Y'}}</p>
-	      {{content}}
-	    </div>
-	    <div>&nbsp;</div>
-	    <div class="media desktop-only">
-	      <div>
-		      {% include image-gallery.html id="gallery-left" %}
-	      </div>
-	    </div>
-	  </div>
+<div class="grid grid-large">
+	{% if page.featured-image_path != '' %}
+	<div class="grid-width-5 featured-image">
+		<img src="{{page.featured_image_path | relative_url}}" alt="" class="shadow" />
+	</div>{% endif %}
+	<div class="grid-width-7 text-content">
+		<div>
+			<p class="no-margin">{{page.date | date: '%Y'}}</p>
+			{{content}}
+		</div>
+		<div>&nbsp;</div>
+		<div class="media desktop-only">
+			<div>
+				{% include image-gallery.html id="gallery-left" %}
+			</div>
+		</div>
 	</div>
+</div>
 {% else %}
-	<div class="grid">
-	  <div class="grid-width-12">
-	  	<p class="no-margin">{{page.date | date: '%Y'}}</p>
-	  	<h1>{{page.title}}</h1>
-	    {{content}}
-	    <div class="media mobile-only">
-	      <div>{% include media-gallery.html %}</div>
-	    </div>
-	  </div>
+<div class="grid">
+	<div class="grid-width-12">
+		<p class="no-margin">{{page.date | date: '%Y'}}</p>
+		<h1>{{page.title}}</h1>
+		{{content}}
+		<div class="media mobile-only">
+			<div>{% include media-gallery.html %}</div>
+		</div>
 	</div>
+</div>
 {% endif %}
 
 {% include html-end.html %}
