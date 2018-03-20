@@ -15,12 +15,13 @@ Da drus leiteni ab:
 Leider kennemi gar nid us, was die hütige UI-Theorie so meine, wie e Homepage sött ufbout si.
 Was hesch du z'Gfüel, was würd sech abiete?
 
+## How it works
+
+Die Seite wird via Github alle paar Stunden von https://app.buddy.works gebuilded und per FTP auf die Live Seite deployed.
+
+Für die einfache Bearbeitung steht https://app.cloudcannon.com/ zur Verfügung. Einen direkten Zugriff gibt es via http://shy-truck.cloudvent.net/update
+
 ## Next todo:
 
-* Download Verzeichnis bleibt
-* Konzert Reservations skript einbauen -> dont touch this
-* Deployment auf FTP ermöglichen / testen -> siehe: https://app.buddy.works
-* Post View machen
 * Vergangenes Zusatznavigation?
 * Konzert auf erste Seite
-* Link auf Reservationstool ermöglichen
