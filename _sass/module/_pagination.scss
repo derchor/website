@@ -1,0 +1,19 @@
+.pagination {
+	display: flex;
+	float: right;
+
+	.pagination-link {
+		display: block;
+		border: 1px solid black;
+		color: black;
+		text-decoration: none;
+		padding: 0.2rem 0.5rem;
+		font-size: 1rem;
+		margin-top: 0rem;
+		margin-right: 0.5rem;
+
+		&:hover {
+			background-color: #eee;
+		}
+	}
+}

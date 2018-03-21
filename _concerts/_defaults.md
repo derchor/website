@@ -16,12 +16,15 @@ dates:
 - datum: Donnerstag,
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
+  reservation_link: ''
 - datum: Freitag,
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
+  reservation_link: ''
 - datum: Samstag,
   zeit: 20:00 Uhr
   ort: Kirche Oberstrass, Stapferstrasse 58, Zürich
+  reservation_link: ''
 reservation-link: ''
 ---
 

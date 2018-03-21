@@ -14,10 +14,14 @@
 			<h2>{{concert.subtitle}}</h2>
 
 			{% for event in concert.dates %}
-				<div class="concert-date">
+				{% if event.reservation_link != '' %}
+					<a href="{{event.reservation_link}}" class="concert-date">
+				{% else %}
+					<a href="{{concert.reservation-link}}" class="concert-date">
+				{% endif%}
 					<strong>{{event.datum }} | {{event.zeit}}</strong><br>
 					{{event.ort}}
-				</div>
+					</a>
 			{% endfor %}
 
 			{% if concert.reservation-link %} 

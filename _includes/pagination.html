@@ -1,0 +1,4 @@
+<p class="pagination">
+  {% if page.previous %}<a href="{{page.previous.url | relative_url}}" title="" class="pagination-link">&#x2190;</a>{% endif %}
+  {% if page.next %}<a href="{{page.next.url | relative_url}}" title="" class="pagination-link">&#x2192;</a>{% endif %}
+</p>

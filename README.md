@@ -24,4 +24,6 @@ Für die einfache Bearbeitung steht https://app.cloudcannon.com/ zur Verfügung.
 ## Next todo:
 
 * Vergangenes Zusatznavigation?
-* Konzert auf erste Seite
+* Ausdruck Konzertchor Uni Bern CH auch in MetaDaten und in Text
+* Gönnerformular noch besser darstellen
+* Einstieg Chor mit Bild
