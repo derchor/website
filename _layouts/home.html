@@ -6,6 +6,7 @@
 	{% if concert.featured-image_path != '' %}
 	<div class="grid-width-5 featured-image">
 		<img src="{{concert.featured_image_path | relative_url}}" alt="" class="shadow" />
+		<img src="{{page.additonal_image_path | relative_url}}" alt="" class="shadow" />
 	</div>{% endif %}
 	<div class="grid-width-7 text-content">
 		<div>
