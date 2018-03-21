@@ -1,6 +1,6 @@
 ---
 title: Gönner
-permalink: /goenner
+permalink: "/goenner"
 ---
 
 Wir freuen uns sehr über Unterstützung der Gönner.
