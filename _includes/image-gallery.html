@@ -3,17 +3,17 @@
     <div id="{{include.id}}" class="gallery">
       <!-- show  first four images -->
       {% for image in page.images limit:4 %} 
-        <a href="{{image.image_path}}" style="background-image: url({{image.image_path}})"></a>
+        <a href="{{image.image_path | relative_url}}" style="background-image: url({{image.image_path  | relative_url}})"></a>
       {% endfor %}
       <!-- show  placeholder for further images -->
       {% for image in page.images offset:4 | limit: 1 %}
-        <a href="{{image.image_path}}" style="background-image: url({{image.image_path}})">
+        <a href="{{image.image_path | relative_url}}" style="background-image: url({{image.image_path | relative_url}})">
           <div class="gallery-more">{{ page.images.size | minus: 4 }} weitere</div>
         </a>
       {% endfor %}
       <!-- hide remaining images -->
       {% for image in page.images offset: 5 %}
-       <a href="{{image.image_path}}" style="display: none;"></a>
+       <a href="{{image.image_path | relative_url}}" style="display: none;"></a>
       {% endfor %}
     </div>
   </div>
