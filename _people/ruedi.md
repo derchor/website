@@ -2,8 +2,8 @@
 title: Ruedi
 name: Rudolf Kämpf
 role: Dirigent
-image_path: /uploads/1-ruedi-srf-auftritt17-1.png
-description:
+image_path: "/uploads/1-ruedi-srf-auftritt17-1.png"
+description: 
 ---
 
 Seit 2010: Dozent für Chorleitung an der Zürcher Hochschule der Künste, ZHdK.
