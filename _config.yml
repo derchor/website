@@ -56,7 +56,7 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: "/website"
+baseurl: "/newdesign"
 url: ''
 markdown: kramdown
 gems:
