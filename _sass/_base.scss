@@ -40,6 +40,20 @@ iframe {
 
 .editor-link {
   display: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 2px dashed white;
+  background-color: #407afc;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+  &:hover {
+    border: 2px dashed #407afc;
+    opacity: 1;
+  }
 }
 
 .cms-editor-active .editor-link {
