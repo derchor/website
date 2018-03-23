@@ -37,3 +37,11 @@ iframe {
   max-width: 40rem;
   min-width: 25rem;
 }
+
+.editor-link {
+  display: none;
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
