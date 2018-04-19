@@ -1,5 +1,5 @@
 ---
-title: Liedertexte "Canticum Novum"
-permalink: "/cn18"
+title: Canticum Novum
+permalink: /cn18
 ---
 
