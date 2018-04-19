@@ -1,6 +1,6 @@
 ---
 title: Canticum Novum
-permalink: /cn18
+permalink: "/cn18"
 ---
 
 Auf dieser Seite finden Sie sämtliche Originaltexte der Konzertlieder samt Übersetzungen.
