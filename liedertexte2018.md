@@ -1,6 +1,6 @@
 ---
 title: Canticum Novum
-permalink: 'https://www.derchor.ch/newdesign/cn18'
+permalink: /cn18
 ---
 
 Auf dieser Seite finden Sie sämtliche Originaltexte der Konzertlieder samt Übersetzungen.
