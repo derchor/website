@@ -1,6 +1,6 @@
 ---
 title: Konzert Hinweise
-permalink: /konzertinfo
+permalink: "/konzertinfo"
 ---
 
 # Hier kommt der Text usw.
