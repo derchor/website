@@ -1,6 +1,5 @@
 ---
-title: Konzert Hinweise
-permalink: "/konzertinfo"
+title: Liedertexte "Canticum Novum"
+permalink: /cn18
 ---
 
-# Hier kommt der Text usw.
