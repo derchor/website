@@ -1,5 +1,5 @@
 ---
 title: Canticum Novum
-permalink: /cn18
+permalink: "/cn18"
 ---
 
