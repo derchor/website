@@ -5,7 +5,7 @@ permalink: "/cn18"
 
 Auf dieser Seite finden Sie s&auml;mtliche Originaltexte der Konzertlieder samt &Uuml;bersetzungen.<br>&nbsp;
 
-**1. Cantate Domino**<br>*Uģis Prauliņš (LET), 2015<br>Psalm 96 ; 97 ; 98 (Vulgata)*
+**1. Cantate Domino**<br>*Uģis Prauliņš (LET), 2015<br>Psalm 96 ; 97 ; 98 (Vulgata)*<br>&nbsp;
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra.
 
@@ -25,7 +25,7 @@ Cantate Domino.<br>&nbsp;
 
 &nbsp;
 
-**2. Long Road**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: "Tāls ceļš", Paulīne Bārda<br>&Uuml;bers.: Elaine Singley Lloyd*
+**2. Long Road**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: "Tāls ceļš", Paulīne Bārda<br>&Uuml;bers.: Elaine Singley Lloyd*<br>&nbsp;
 
 I love you night and day<br>as a star in the distant sky.<br>And I mourn for this one thing alone<br>that to love our lifetime was so short.
 
@@ -45,7 +45,7 @@ A long road…<br>&nbsp;
 
 &nbsp;
 
-**3. Cantate Domino**<br>*John Rutter (GB), 1996<br>Psalm 96 (King James Version/Vulgata)<br>Veni Creator (Thomas v. Aquin)*
+**3. Cantate Domino**<br>*John Rutter (GB), 1996<br>Psalm 96 (King James Version/Vulgata)<br>Veni Creator (Thomas v. Aquin)*<br>&nbsp;
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra
 
@@ -85,7 +85,7 @@ Cantate Domino canticum novum.<br>&nbsp;
 
 &nbsp;
 
-**4. In Paradisum***<br>Ēriks Ešenvalds (LET), 2012<br>Lateinischer Gegengesang*
+**4. In Paradisum***<br>Ēriks Ešenvalds (LET), 2012<br>Lateinischer Gegengesang*<br>&nbsp;
 
 In paradisum deducant te angeli;<br>in tuo adventu suscipiant te martyres,<br>et perducant te in civitatem sanctam Jerusalem.
 
@@ -97,7 +97,7 @@ Chorus angelorum te suscipiat<br>et cum Lazaro, quondam paupere,<br>aeternam hab
 
 &nbsp;
 
-**5. Cantate Domino***<br>Josu Elberdin (BASK), 2011<br>Psalm 96 ; 97 ; 98 (englisch/lateinisch)<br>Baskischer Hymnus*
+**5. Cantate Domino***<br>Josu Elberdin (BASK), 2011<br>Psalm 96 ; 97 ; 98 (englisch/lateinisch)<br>Baskischer Hymnus*<br>&nbsp;
 
 Sing to the Lord a new song.<br>Sing to the Lord,<br>Sing all the earth praise his name.
 
@@ -117,7 +117,7 @@ Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia m
 
 &nbsp;
 
-**6. O Salutaris Hostia***<br>Ēriks Ešenvalds (LET), 2009<br>Hymnus von Thomas von Aquin*
+**6. O Salutaris Hostia***<br>Ēriks Ešenvalds (LET), 2009<br>Hymnus von Thomas von Aquin*<br>&nbsp;
 
 O salutaris hostia<br>Qu&aelig; cœli pandis ostium,<br>Bella premunt hostilia;<br>Da robur, fer auxilium.
 
@@ -133,7 +133,7 @@ Amen.<br>&nbsp;
 
 &nbsp;
 
-**7. Cantate Domino**<br>*Alwin Michael Schronen (D), 2015<br>Psalm 96 (Vulgata)*
+**7. Cantate Domino**<br>*Alwin Michael Schronen (D), 2015<br>Psalm 96 (Vulgata)*<br>&nbsp;
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra.
 
@@ -177,7 +177,7 @@ Cantate Domino canticum novum,<br>&nbsp;
 
 &nbsp;
 
-**8. Stars***<br>Ēriks Ešenvalds (LET), 2009<br>Text: Sara Teasdale*
+**8. Stars***<br>Ēriks Ešenvalds (LET), 2009<br>Text: Sara Teasdale*<br>&nbsp;
 
 Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,&nbsp;<br><br>And a heaven full of stars<br>Over my head<br>White and topaz<br>And misty red;&nbsp;<br><br>Myriads with beating<br>Hearts of fire<br>The aeons<br>Cannot vex or tire;&nbsp;<br><br>The dome of heaven<br>Like a great hill<br>And myriads with beating<br>Hearts of fire, heaven full of stars.&nbsp;<br><br>I know<br>I am honored to be<br>Witness<br>Of so much majesty.<br>&nbsp;
 
@@ -193,7 +193,7 @@ Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,
 
 &nbsp;
 
-**9. Cantate Domino***<br>Vytautas Miškinis (LIT), 1997<br>Psalm 96 ; 97 ; 98 (Vulgata)*
+**9. Cantate Domino***<br>Vytautas Miškinis (LIT), 1997<br>Psalm 96 ; 97 ; 98 (Vulgata)*<br>&nbsp;
 
 Cantate Domino canticum novum:
 
@@ -217,7 +217,7 @@ Cantate Domino canticum novum.<br>&nbsp;
 
 &nbsp;
 
-**10. Only in Sleep**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: Sara Teasdale*
+**10. Only in Sleep**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: Sara Teasdale*<br>&nbsp;
 
 Only in sleep<br>I see their faces,<br>Children I played with<br>When I was a child,<br>Louise comes back<br>With her brown hair braided,<br>Annie with ringlets<br>Warm and wild.
 
