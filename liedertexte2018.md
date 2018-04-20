@@ -77,4 +77,136 @@ Cantate Domino canticum novum.
 
 *Komm, Sch&ouml;pfer Geist,**<br>kehr bei uns ein,<br>besuch das Herz der Kinder dein:<br>Die deine Macht erschaffen hat,<br>erf&uuml;lle nun mit deiner Gnad.*
 
-*Singet dem Herrn ein neues Lied.*
+*Singet dem Herrn ein neues Lied.*<br>&nbsp;
+
+**4. In Paradisum***<br>Ēriks Ešenvalds (LET), 2012**<br>Lateinischer Gegengesang*
+
+In paradisum deducant te angeli;<br>in tuo adventu suscipiant te martyres,<br>et perducant te in civitatem sanctam Jerusalem.
+
+Chorus angelorum te suscipiat<br>et cum Lazaro, quondam paupere,<br>aeternam habeas requiem.
+
+*Zum Paradies m&ouml;gen Engel dich geleiten,<br>bei deiner Ankunft die M&auml;rtyer dich begr&uuml;ssen<br>und dich f&uuml;hren in die heilige Stadt Jerusalem.*
+
+*Die Ch&ouml;re der Engel m&ouml;gen dich empfangen<br>und mit Lazarus, dem einst armen,<br>m&ouml;gest du ewige Ruhe haben.*
+
+**5. Cantate Domino***<br>Josu Elberdin (BASK), 2011**<br>Psalm 96 ; 97 ; 98 (englisch/lateinisch)**<br>Baskischer Hymnus*
+
+Sing to the Lord a new song.<br>Sing to the Lord,<br>Sing all the earth praise his name.
+
+Kanta Jaunari kantu berria,<br>kanta Jaunari lur guztia,<br>egin alaitsu haren nahia.
+
+Benedicite nomini ejus.<br>Annuntiate diem de die<br>salutare ejus.
+
+Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia mirabilia fecit.
+
+*Sing dem Herrn ein neues Lied.**<br>Sing dem Herrn,**<br>Sing, alle Welt,&nbsp;**lobe seinen Namen.*
+
+*Sing dem Herrn ein neues Lied,**<br>sing dem Herrn, alle Welt,**<br>erf&uuml;lle freudig seinen Willen.*
+
+*Lobet seinen Namen,**<br>verk&uuml;ndet von Tag zu Tag**<br>sein Heil!*
+
+*Singet, r&uuml;hmet und lobet!&nbsp;**<br>Lobet mit Harfen,**<br>lobet mit Psalmen!**<br>Denn er tut Wunder.*<br>&nbsp;
+
+**6. O Salutaris Hostia***<br>Ēriks Ešenvalds (LET), 2009**<br>Hymnus von Thomas von Aquin*
+
+O salutaris hostia<br>Qu&aelig; cœli pandis ostium,<br>Bella premunt hostilia;<br>Da robur, fer auxilium.
+
+Uni trinoque Domino<br>Sit sempiterna gloria:<br>Qui vitam sine termino<br>Nobis donet in patria.
+
+Amen.
+
+*O heilbringende Opfergabe,**<br>die du die Himmelst&uuml;r &ouml;ffnest,**<br>feindliche Krieger dr&auml;ngen;**<br>Gib Kraft, bringe Hilfe.*
+
+*Dem einen dreifaltigen Herrn**<br>sei ewige Ehre,**<br>der Leben ohne Ende**<br>uns geben m&ouml;ge im Vaterland.*
+
+*Amen.*<br>&nbsp;
+
+**7. Cantate Domino**<br>*Alwin Michael Schronen (D), 2015<br>Psalm 96 (Vulgata)*
+
+Cantate Domino canticum novum,<br>cantate Domino omnis terra.
+
+Et benedicite nomini eius;<br>annuntiate de die in diem salutare ejus.
+
+Annuntiate inter gentes gloriam eius,<br>in omnibus populis mirabilia eius.
+
+Quoniam magnus Dominus, et laudibilis nimis;<br>terribilis est super omnes deos.
+
+L&aelig;tantur c&aelig;li et exsultet terra:<br>commoveatur mare et plenitudo ejus.
+
+Tunc exsultabunt omnia ligna silvarum<br>a facie Domini, quia venit.
+
+Judicabit orbem terr&aelig; in &aelig;quitate,<br>et populos veritate sua.
+
+Cantate Domino canticum novum,<br>cantate Domino omnis terra.
+
+Et benedicite nomini eius;<br>annuntiate de die in diem salutare ejus.
+
+Cantate Domino canticum novum,
+
+*Singet dem Herrn&nbsp;**ein neues Lied;**<br>singet dem Herrn,&nbsp;**alle Welt!*
+
+*Und lobet seinen Namen,**<br>verk&uuml;ndet von Tag zu Tag&nbsp;**sein Heil!*
+
+*Erz&auml;hlet unter den Heiden&nbsp;**von seiner Herrlichkeit,**<br>unter allen V&ouml;lkern&nbsp;**von seinen Wundern!*
+
+*Denn der Herr ist gross&nbsp;**und hoch zu loben,**<br>mehr zu f&uuml;rchten&nbsp;**als alle G&ouml;tter.*
+
+*Der Himmel freue sich,&nbsp;**und die Erde sei fr&ouml;hlich,**<br>das Meer brause&nbsp;**und was darinnen ist;*
+
+*Jauchzen sollen&nbsp;**alle B&auml;ume im Walde&nbsp;**<br>vor dem Herrn;&nbsp;**denn er kommt.*
+
+*Er wird den Erdkreis richten&nbsp;**mit Gerechtigkeit<br>und die V&ouml;lker mit seiner Wahrheit.*
+
+*Singet dem Herrn&nbsp;**ein neues Lied;**<br>singet dem Herrn,&nbsp;**alle Welt!*
+
+*Und lobet seinen Namen,**<br>verk&uuml;ndet von Tag zu Tag&nbsp;**sein Heil!*
+
+*Singet dem Herrn&nbsp;**ein neues Lied.*<br>&nbsp;
+
+**8. Stars***<br>Ēriks Ešenvalds (LET), 2009**<br>Text: Sara Teasdale*
+
+Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,&nbsp;<br><br>And a heaven full of stars<br>Over my head<br>White and topaz<br>And misty red;&nbsp;<br><br>Myriads with beating<br>Hearts of fire<br>The aeons<br>Cannot vex or tire;&nbsp;<br><br>The dome of heaven<br>Like a great hill<br>And myriads with beating<br>Hearts of fire, heaven full of stars.&nbsp;<br><br>I know<br>I am honored to be<br>Witness<br>Of so much majesty.
+
+*Allein in der Nacht**<br>Auf einem dunklen H&uuml;gel,**<br>Um mich herum Kiefern**<br>Aromatisch und reglos,*
+
+*Und ein Himmel voller Sterne**<br>&Uuml;ber meinem Haupt,**<br>Weiss und topasfarben**<br>Und dunstig rot;*
+
+*Myriaden mit schlagenden**<br>Herzen aus Feuer,**<br>Welche die &Auml;onen weder**<br>Bedr&uuml;cken noch erm&uuml;den;*
+
+*Die Himmelskuppel**<br>Wie ein hoher H&uuml;gel**<br>Und Myriaden mit schlagenden<br>Herzen aus Feuer, e**in Himmel voller Sterne.*
+
+*Ich weiss,**<br>Dass ich geehrt bin,**<br>Zeuge von etwas**<br>So majest&auml;tischem zu sein.*<br>&nbsp;
+
+**9. Cantate Domino***<br>Vytautas Miškinis (LIT), 1997**<br>Psalm 96 ; 97 ; 98 (Vulgata)*
+
+Cantate Domino canticum novum:
+
+et benedicite nomini eius,<br>quia mirabilia fecit.
+
+Cantate Domino canticum novum.
+
+Cantate et exsultate,<br>et psalite in cithara<br>et voce psalmi.
+
+Cantate Domino canticum novum.
+
+*Singet dem Herrn&nbsp;**ein neues Lied;*
+
+*Und lobet seinen Namen,**<br>denn er tut Wunder.*
+
+*Singet dem Herrn&nbsp;**ein neues Lied.*
+
+*Singet, r&uuml;hmet und lobet**<br>mit Harfen und frohem Gesang!*
+
+*Singet dem Herrn&nbsp;**ein neues Lied.*<br>&nbsp;
+
+**10. Only in Sleep**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: Sara Teasdale*
+
+Only in sleep<br>I see their faces,<br>Children I played with<br>When I was a child,<br>Louise comes back<br>With her brown hair braided,<br>Annie with ringlets<br>Warm and wild.
+
+Only in sleep<br>Time is forgotten –<br>What may have come to them,<br>Who can know?<br>Yet we played last night<br>As long ago,<br>And the doll-house stood<br>At the turn of the stair.<br><br>The years had not sharpened Their smooth round faces,<br>I met their eyes<br>And found them mild –<br>Do they, too, dream of me,<br>I wonder,<br>And for them am I too a child?
+
+*Nur im Schlaf**<br>Sehe ich ihre Gesichter,**<br>Kinder, mit denen ich spielte,**<br>Als ich noch ein Kind war.**<br>Louise kommt mir in den Sinn**<br>Mit ihrem braunen,**<br>Geflochtenen Haar,**<br>Annie mit Ringell&ouml;ckchen,**<br>Warm und wild.*
+
+*Nur im Schlaf**<br>Ist die Zeit vergessen –**<br>Was wurde wohl aus ihnen,**<br>Wer weiss?**<br>Dennoch spielten wir letzte Nacht**<br>Wie vor langer Zeit,**<br>Und das Puppenhaus stand**<br>An der Treppenwende.*
+
+*Die Jahre hatten ihre glatten,**<br>Runden Gesichter nicht verh&auml;rtet,**<br>Ich schaute in ihre Augen**<br>Und fand sie sanft –**<br>Tr&auml;umen sie auch von mir,**<br>Frage ich mich,**<br>Und bin ich f&uuml;r sie auch ein Kind?*
