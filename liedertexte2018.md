@@ -13,7 +13,7 @@ Cantate Domino, et benedicite nomini ejus;<br>Quia mirabilia fecit.
 
 Cantate Domino, et psallite,<br>cithara, voce psalmi.
 
-Cantate Domino.
+Cantate Domino.<br>&nbsp;
 
 *Singet dem Herrn ein neues Lied,<br>singet dem Herrn, alle Welt.*
 
@@ -21,7 +21,9 @@ Cantate Domino.
 
 *Singet dem Herrn und lobet<br>mit Harfen und frohem Gesang!*
 
-*Singet dem Herrn.*<br>&nbsp;
+*Singet dem Herrn.*
+
+&nbsp;
 
 **2. Long Road**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: "Tāls ceļš", Paulīne Bārda<br>&Uuml;bers.: Elaine Singley Lloyd*
 
@@ -31,7 +33,7 @@ A long road to heaven’s shining meadow,<br>and never could I reach its end.<br
 
 High above the arch of heaven bends<br>and light so clear is falling.<br>Like a flow’ring tree the world is blooming.<br>Overwhelmed my heart both cries and laughs.
 
-A long road…
+A long road…<br>&nbsp;
 
 *Ich liebe dich Tag und Nacht<br>wie einen Stern am weit entfernten Himmel.<br>Und ich trauere nur aus einem einzigen Grund,<br>dass unser Leben zu kurz war um zu lieben.*
 
@@ -39,7 +41,9 @@ A long road…
 
 *Hoch oben w&ouml;lbt sich der Himmelsbogen<br>und klares Licht f&auml;llt herab.<br>Wie ein Baum zu voller Bl&uuml;te entfaltet sich die Welt.<br>&Uuml;berw&auml;ltigt weint und lacht mein Herz.*
 
-*Ein langer Weg…*<br>&nbsp;
+*Ein langer Weg…*
+
+&nbsp;
 
 **3. Cantate Domino**<br>*John Rutter (GB), 1996<br>Psalm 96 (King James Version/Vulgata)<br>Veni Creator (Thomas v. Aquin)*
 
@@ -59,7 +63,7 @@ Let the heavens rejoice and let the earth be glad; for he cometh to judge the ea
 
 Veni creator spiritus,<br>mentes tuorum visita;<br>imple superna gratia<br>quae tu creasti pectora.
 
-Cantate Domino canticum novum.
+Cantate Domino canticum novum.<br>&nbsp;
 
 *Singet dem Herrn ein neues Lied; singet dem Herrn, alle Welt!*
 
@@ -77,17 +81,21 @@ Cantate Domino canticum novum.
 
 *Komm, Sch&ouml;pfer Geist,<br>kehr bei uns ein,<br>besuch das Herz der Kinder dein:<br>Die deine Macht erschaffen hat,<br>erf&uuml;lle nun mit deiner Gnad.*
 
-*Singet dem Herrn ein neues Lied.*<br>&nbsp;
+*Singet dem Herrn ein neues Lied.*
+
+&nbsp;
 
 **4. In Paradisum***<br>Ēriks Ešenvalds (LET), 2012<br>Lateinischer Gegengesang*
 
 In paradisum deducant te angeli;<br>in tuo adventu suscipiant te martyres,<br>et perducant te in civitatem sanctam Jerusalem.
 
-Chorus angelorum te suscipiat<br>et cum Lazaro, quondam paupere,<br>aeternam habeas requiem.
+Chorus angelorum te suscipiat<br>et cum Lazaro, quondam paupere,<br>aeternam habeas requiem.<br>&nbsp;
 
 *Zum Paradies m&ouml;gen Engel dich geleiten,<br>bei deiner Ankunft die M&auml;rtyer dich begr&uuml;ssen<br>und dich f&uuml;hren in die heilige Stadt Jerusalem.*
 
 *Die Ch&ouml;re der Engel m&ouml;gen dich empfangen<br>und mit Lazarus, dem einst armen,<br>m&ouml;gest du ewige Ruhe haben.*
+
+&nbsp;
 
 **5. Cantate Domino***<br>Josu Elberdin (BASK), 2011<br>Psalm 96 ; 97 ; 98 (englisch/lateinisch)<br>Baskischer Hymnus*
 
@@ -97,7 +105,7 @@ Kanta Jaunari kantu berria,<br>kanta Jaunari lur guztia,<br>egin alaitsu haren n
 
 Benedicite nomini ejus.<br>Annuntiate diem de die<br>salutare ejus.
 
-Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia mirabilia fecit.
+Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia mirabilia fecit.<br>&nbsp;
 
 *Sing dem Herrn ein neues Lied.<br>Sing dem Herrn,<br>Sing, alle Welt, lobe seinen Namen.*
 
@@ -105,7 +113,9 @@ Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia m
 
 *Lobet seinen Namen,<br>verk&uuml;ndet von Tag zu Tag<br>sein Heil!*
 
-*Singet, r&uuml;hmet und lobet!&nbsp;<br>Lobet mit Harfen,<br>lobet mit Psalmen!<br>Denn er tut Wunder.*<br>&nbsp;
+*Singet, r&uuml;hmet und lobet!&nbsp;<br>Lobet mit Harfen,<br>lobet mit Psalmen!<br>Denn er tut Wunder.*
+
+&nbsp;
 
 **6. O Salutaris Hostia***<br>Ēriks Ešenvalds (LET), 2009<br>Hymnus von Thomas von Aquin*
 
@@ -113,13 +123,15 @@ O salutaris hostia<br>Qu&aelig; cœli pandis ostium,<br>Bella premunt hostilia;<
 
 Uni trinoque Domino<br>Sit sempiterna gloria:<br>Qui vitam sine termino<br>Nobis donet in patria.
 
-Amen.
+Amen.<br>&nbsp;
 
 *O heilbringende Opfergabe,<br>die du die Himmelst&uuml;r &ouml;ffnest,<br>feindliche Krieger dr&auml;ngen;<br>Gib Kraft, bringe Hilfe.*
 
 *Dem einen dreifaltigen Herrn<br>sei ewige Ehre,<br>der Leben ohne Ende<br>uns geben m&ouml;ge im Vaterland.*
 
-*Amen.*<br>&nbsp;
+*Amen.*
+
+&nbsp;
 
 **7. Cantate Domino**<br>*Alwin Michael Schronen (D), 2015<br>Psalm 96 (Vulgata)*
 
@@ -141,7 +153,7 @@ Cantate Domino canticum novum,<br>cantate Domino omnis terra.
 
 Et benedicite nomini eius;<br>annuntiate de die in diem salutare ejus.
 
-Cantate Domino canticum novum,
+Cantate Domino canticum novum,<br>&nbsp;
 
 *Singet dem Herrn ein neues Lied;<br>singet dem Herrn, alle Welt!*
 
@@ -161,11 +173,13 @@ Cantate Domino canticum novum,
 
 *Und lobet seinen Namen,<br>verk&uuml;ndet von Tag zu Tag sein Heil!*
 
-*Singet dem Herrn ein neues Lied.*<br>&nbsp;
+*Singet dem Herrn ein neues Lied.*
+
+&nbsp;
 
 **8. Stars***<br>Ēriks Ešenvalds (LET), 2009<br>Text: Sara Teasdale*
 
-Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,&nbsp;<br><br>And a heaven full of stars<br>Over my head<br>White and topaz<br>And misty red;&nbsp;<br><br>Myriads with beating<br>Hearts of fire<br>The aeons<br>Cannot vex or tire;&nbsp;<br><br>The dome of heaven<br>Like a great hill<br>And myriads with beating<br>Hearts of fire, heaven full of stars.&nbsp;<br><br>I know<br>I am honored to be<br>Witness<br>Of so much majesty.
+Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,&nbsp;<br><br>And a heaven full of stars<br>Over my head<br>White and topaz<br>And misty red;&nbsp;<br><br>Myriads with beating<br>Hearts of fire<br>The aeons<br>Cannot vex or tire;&nbsp;<br><br>The dome of heaven<br>Like a great hill<br>And myriads with beating<br>Hearts of fire, heaven full of stars.&nbsp;<br><br>I know<br>I am honored to be<br>Witness<br>Of so much majesty.<br>&nbsp;
 
 *Allein in der Nacht<br>Auf einem dunklen H&uuml;gel,<br>Um mich herum Kiefern<br>Aromatisch und reglos,*
 
@@ -175,7 +189,9 @@ Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,
 
 *Die Himmelskuppel<br>Wie ein hoher H&uuml;gel<br>Und Myriaden mit schlagenden<br>Herzen aus Feuer, ein Himmel voller Sterne.*
 
-*Ich weiss,<br>Dass ich geehrt bin,<br>Zeuge von etwas<br>So majest&auml;tischem zu sein.*<br>&nbsp;
+*Ich weiss,<br>Dass ich geehrt bin,<br>Zeuge von etwas<br>So majest&auml;tischem zu sein.*
+
+&nbsp;
 
 **9. Cantate Domino***<br>Vytautas Miškinis (LIT), 1997<br>Psalm 96 ; 97 ; 98 (Vulgata)*
 
@@ -187,7 +203,7 @@ Cantate Domino canticum novum.
 
 Cantate et exsultate,<br>et psalite in cithara<br>et voce psalmi.
 
-Cantate Domino canticum novum.
+Cantate Domino canticum novum.<br>&nbsp;
 
 *Singet dem Herrn ein neues Lied;*
 
@@ -197,13 +213,15 @@ Cantate Domino canticum novum.
 
 *Singet, r&uuml;hmet und lobet<br>mit Harfen und frohem Gesang!*
 
-*Singet dem Herrn ein neues Lied.*<br>&nbsp;
+*Singet dem Herrn ein neues Lied.*
+
+&nbsp;
 
 **10. Only in Sleep**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: Sara Teasdale*
 
 Only in sleep<br>I see their faces,<br>Children I played with<br>When I was a child,<br>Louise comes back<br>With her brown hair braided,<br>Annie with ringlets<br>Warm and wild.
 
-Only in sleep<br>Time is forgotten –<br>What may have come to them,<br>Who can know?<br>Yet we played last night<br>As long ago,<br>And the doll-house stood<br>At the turn of the stair.<br><br>The years had not sharpened Their smooth round faces,<br>I met their eyes<br>And found them mild –<br>Do they, too, dream of me,<br>I wonder,<br>And for them am I too a child?
+Only in sleep<br>Time is forgotten –<br>What may have come to them,<br>Who can know?<br>Yet we played last night<br>As long ago,<br>And the doll-house stood<br>At the turn of the stair.<br><br>The years had not sharpened Their smooth round faces,<br>I met their eyes<br>And found them mild –<br>Do they, too, dream of me,<br>I wonder,<br>And for them am I too a child?<br>&nbsp;
 
 *Nur im Schlaf<br>Sehe ich ihre Gesichter,<br>Kinder, mit denen ich spielte,<br>Als ich noch ein Kind war.<br>Louise kommt mir in den Sinn<br>Mit ihrem braunen,<br>Geflochtenen Haar,<br>Annie mit Ringell&ouml;ckchen,<br>Warm und wild.*
 
