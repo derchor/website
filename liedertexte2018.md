@@ -3,7 +3,7 @@ title: Canticum Novum
 permalink: "/cn18"
 ---
 
-Auf dieser Seite finden Sie s&auml;mtliche Originaltexte der Konzertlieder samt &Uuml;bersetzungen.
+Auf dieser Seite finden Sie s&auml;mtliche Originaltexte der Konzertlieder samt &Uuml;bersetzungen.<br>&nbsp;
 
 **1. Cantate Domino**<br>*Uģis Prauliņš (LET), 2015<br>Psalm 96 ; 97 ; 98 (Vulgata)*
 
@@ -21,7 +21,7 @@ Cantate Domino.
 
 *Singet dem Herrn und lobet<br>mit Harfen und frohem Gesang!*
 
-*Singet dem Herrn.*
+*Singet dem Herrn.*<br>&nbsp;
 
 **2. Long Road**<br>*Ēriks Ešenvalds (LET), 2010<br>Text: "Tāls ceļš", Paulīne Bārda<br>&Uuml;bers.: Elaine Singley Lloyd*
 
