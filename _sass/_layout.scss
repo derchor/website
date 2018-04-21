@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  padding: 3rem 1rem 3rem 1rem;
+  overflow: auto;
+}
+
 header {
   width: 15rem;
   position: fixed;
@@ -31,8 +36,14 @@ header {
 
 main {
   margin-left: 18rem;
-  padding: 3rem 1rem 3rem 1rem;
-  overflow: auto;
+}
+
+
+
+body.has-no-nav {
+  main {
+    margin-left: 0;
+  }
 }
 
 .brand {

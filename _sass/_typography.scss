@@ -12,6 +12,12 @@ body {
   font-size: 20px;
 }
 
+.no-max-width-for-paragraphs {
+  p {
+    max-width: none;
+  }
+}
+
 p {
   line-height: 150%;
   max-width: 40rem;
@@ -33,6 +39,12 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: 400;
+}
+
+.bigger-titles {
+  h1 { font-size: 3rem };
+  h2 { font-size: 2rem };
+  h3 { font-size: 1.5rem };
 }
 
 @media screen and (max-width: $break-point) {
