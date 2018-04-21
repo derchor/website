@@ -24,12 +24,18 @@
 				{% endif%}
 					<strong>{{event.datum }} | {{event.zeit}}</strong><br>
 					{{event.ort}}
-					</a>
+					{% if event.bemerkung != '' %}
+					<div>
+						<br><small>{{event.bemerkung}}</small>
+					</div>
+					{% endif %}
+				</a>
 			{% endfor %}
 
 			{% if concert.reservation-link %} 
 			<a href="{{concert.reservation-link}}" class="reservation-link">Jetzt Reservieren</a>
 			{% endif %}
+
 
 			{{concert.content}}
 

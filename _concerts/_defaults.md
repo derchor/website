@@ -17,14 +17,17 @@ dates:
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
   reservation_link: ''
+  bemerkung: ''
 - datum: Freitag,
   zeit: 20:15 Uhr
   ort: Petruskirche, Brunnadernstrasse 40, Bern
   reservation_link: ''
+  bemerkung: ''
 - datum: Samstag,
   zeit: 20:00 Uhr
   ort: Kirche Oberstrass, Stapferstrasse 58, Zürich
   reservation_link: ''
+  bemerkung: ''
 reservation-link: ''
 ---
 
