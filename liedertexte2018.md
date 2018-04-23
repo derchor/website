@@ -1,7 +1,7 @@
 ---
 title: Canticum Novum
 permalink: "/cn18"
-layout: no_nav
+layout: liedtexte
 ---
 
 Auf dieser Seite finden Sie s&auml;mtliche Originaltexte der Konzertlieder samt &Uuml;bersetzungen.<br>&nbsp;

@@ -40,10 +40,12 @@ main {
 
 
 
-body.has-no-nav {
+body.has-liedtexte {
   main {
     margin-left: 0;
   }
+  background-color: #111;
+  color: #ddd;
 }
 
 .brand {

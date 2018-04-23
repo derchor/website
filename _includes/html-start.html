@@ -9,9 +9,10 @@
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 </head>
-
-{% unless page.layout == 'no_nav' %}
-  <body class="has-nav">
+{% if page.layout == 'liedtexte' %}
+  <body class="has-liedtexte">
+{% else%}
+   <body>
   {% include main-navigation.html %}
-{% endunless %}
+{% endif %}
   <main>
