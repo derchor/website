@@ -6,13 +6,20 @@ layout: liedtexte
 
 Auf dieser Seite finden Sie s&auml;mtliche Originaltexte der Konzertlieder samt &Uuml;bersetzungen.<br>&nbsp;
 
-* TOC
-{:toc}
+* [1. Cantate Domino](#1-cantate-domino)
+* [2. Long Road](#2-long-road)
+* [3. Cantate Domino](#3-cantate-domino)
+* [4. In Paradisum](#4-in-paradisum)
+* [5. Cantate Domino](#5-cantate-domino)
+* [6. O Salutaris Hostia](#6-o-salutaris-hostia)
+* [7. Cantate Domino](#7-cantate-domino)
+* [8. Stars](#8-stars)
+* [9. Cantate Domino](#9-cantate-domino)
+* [10. Only in Sleep](#10-only-in-sleep)
 
 ## 1. Cantate Domino
 
-*Uģis Prauliņš (LET), 2015*<br>
-*Psalm 96 ; 97 ; 98 (Vulgata)*
+*Uģis Prauliņš, Lettland, 2015*<br>*Psalm 96 ; 97 ; 98 (Vulgata)*
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra.
 
@@ -33,9 +40,8 @@ Cantate Domino.<br>&nbsp;
 &nbsp;
 
 ## 2. Long Road
-*Ēriks Ešenvalds (LET), 2010*<br>
-*Text: "Tāls ceļš", Paulīne Bārda*<br>
-*&Uuml;bers.: Elaine Singley Lloyd*
+
+*Ēriks Ešenvalds, Lettland, 2010*<br>*Text: "Tāls ceļš", Paulīne Bārda*<br>*&Uuml;bers.: Elaine Singley Lloyd*
 
 I love you night and day<br>as a star in the distant sky.<br>And I mourn for this one thing alone<br>that to love our lifetime was so short.
 
@@ -57,9 +63,7 @@ A long road…<br>&nbsp;
 
 ## 3. Cantate Domino
 
-*John Rutter (GB), 1996*<br>
-*Psalm 96 (King James Version/Vulgata)*<br>
-*Veni Creator (Thomas v. Aquin)*<br>
+*John Rutter, Grossbritannien, 1996*<br>*Psalm 96 (King James Version/Vulgata)*<br>*Veni Creator (Thomas v. Aquin)*
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra
 
@@ -101,8 +105,7 @@ Cantate Domino canticum novum.<br>&nbsp;
 
 ## 4. In Paradisum
 
-*Ēriks Ešenvalds (LET), 2012*<br>
-*Lateinischer Gegengesang*
+*Ēriks Ešenvalds, Lettland, 2012*<br>*Lateinischer Gegengesang*
 
 In paradisum deducant te angeli;<br>in tuo adventu suscipiant te martyres,<br>et perducant te in civitatem sanctam Jerusalem.
 
@@ -115,9 +118,8 @@ Chorus angelorum te suscipiat<br>et cum Lazaro, quondam paupere,<br>aeternam hab
 &nbsp;
 
 ## 5. Cantate Domino
-*Josu Elberdin (BASK), 2011*<br>
-*Psalm 96 ; 97 ; 98 (englisch/lateinisch)*<br>
-*Baskischer Hymnus*<br>
+
+*Josu Elberdin, Baskenland, 2011*<br>*Psalm 96 ; 97 ; 98 (englisch/lateinisch)*<br>*Baskischer Hymnus*
 
 Sing to the Lord a new song.<br>Sing to the Lord,<br>Sing all the earth praise his name.
 
@@ -139,8 +141,7 @@ Cantate, exsultate<br>et psallite in cithara,<br>psallite voce psalmi.<br>Quia m
 
 ## 6. O Salutaris Hostia
 
-*Ēriks Ešenvalds (LET), 2009*<br>
-*Hymnus von Thomas von Aquin*
+*Ēriks Ešenvalds, Lettland, 2009*<br>*Hymnus von Thomas von Aquin*
 
 O salutaris hostia<br>Qu&aelig; cœli pandis ostium,<br>Bella premunt hostilia;<br>Da robur, fer auxilium.
 
@@ -158,8 +159,7 @@ Amen.<br>&nbsp;
 
 ## 7. Cantate Domino
 
-*Alwin Michael Schronen (D), 2015*<br>
-*Psalm 96 (Vulgata)*
+*Alwin Michael Schronen, Deutschland, 2015*<br>*Psalm 96 (Vulgata)*
 
 Cantate Domino canticum novum,<br>cantate Domino omnis terra.
 
@@ -205,8 +205,7 @@ Cantate Domino canticum novum,<br>&nbsp;
 
 ## 8. Stars
 
-*Ēriks Ešenvalds (LET), 2009*<br>
-*Text: Sara Teasdale*
+*Ēriks Ešenvalds, Lettland, 2009*<br>*Text: Sara Teasdale*
 
 Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,&nbsp;<br><br>And a heaven full of stars<br>Over my head<br>White and topaz<br>And misty red;&nbsp;<br><br>Myriads with beating<br>Hearts of fire<br>The aeons<br>Cannot vex or tire;&nbsp;<br><br>The dome of heaven<br>Like a great hill<br>And myriads with beating<br>Hearts of fire, heaven full of stars.&nbsp;<br><br>I know<br>I am honored to be<br>Witness<br>Of so much majesty.<br>&nbsp;
 
@@ -224,8 +223,7 @@ Alone in the night<br>On a dark hill<br>With pines around me<br>Spicy and still,
 
 ## 9. Cantate Domino
 
-*Vytautas Miškinis (LIT), 1997*<br>
-*Psalm 96 ; 97 ; 98 (Vulgata)*
+*Vytautas Miškinis, Litauen, 1997*<br>*Psalm 96 ; 97 ; 98 (Vulgata)*
 
 Cantate Domino canticum novum:
 
@@ -251,8 +249,7 @@ Cantate Domino canticum novum.<br>&nbsp;
 
 ## 10. Only in Sleep
 
-*Ēriks Ešenvalds (LET), 2010*<br>
-*Text: Sara Teasdale*
+*Ēriks Ešenvalds, Lettland, 2010*<br>*Text: Sara Teasdale*
 
 Only in sleep<br>I see their faces,<br>Children I played with<br>When I was a child,<br>Louise comes back<br>With her brown hair braided,<br>Annie with ringlets<br>Warm and wild.
 
