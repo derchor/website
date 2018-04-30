@@ -17,10 +17,12 @@
 			<h2>{{concert.subtitle}}</h2>
 
 			{% for event in concert.dates %}
-				{% if event.reservation_link != '' %}
+				{% if event.reservation-link != '' %}
 					<a href="{{event.reservation_link}}" class="concert-date">
-				{% else %}
+				{% elsif convert.reservation-link %}
 					<a href="{{concert.reservation-link}}" class="concert-date">
+				{% else %}
+					<a class="concert-date">
 				{% endif%}
 					<strong>{{event.datum }} | {{event.zeit}}</strong><br>
 					{{event.ort}}
