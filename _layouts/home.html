@@ -51,6 +51,10 @@
 	{% if page.featured-image_path != '' %}
 	<div class="grid-width-5 featured-image">
 		<img src="{{page.featured_image_path | relative_url}}" alt="" class="shadow" />
+		<div class="media desktop-only">
+			<div>{% include media-gallery.html %}</div>
+		</div>
+
 	</div>{% endif %}
 	<div class="grid-width-7 text-content">
 		<div>
@@ -58,7 +62,7 @@
 			{{content}}
 		</div>
 		<div>&nbsp;</div>
-		<div class="media desktop-only">
+		<div class="media mobile-only">
 			<div>
 				{% include image-gallery.html id="gallery-left" %}
 			</div>
