@@ -4,7 +4,7 @@
     {% for song in page.songs %}
       <div class="audio">
         <div class="audio-title">{{song.title}}</div>
-        <audio src="{{song.audio_path}}" controls preload="metadata"></audio>
+        <audio src="{{song.audio_path | relative_url }}" controls preload="metadata"></audio>
       </div> 
     {% endfor %}
   </div>
