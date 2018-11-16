@@ -6,7 +6,9 @@
   width: 15em;
   height: 20em;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
+  -ms-flex-direction: column;
   justify-content: flex-end;
   transition: all 0.2s ease-out;
 

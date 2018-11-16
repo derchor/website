@@ -1,5 +1,6 @@
 .grid {
   display: flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
 }
 
@@ -9,6 +10,7 @@
 
 .grid > * {
   flex: 1 1 auto;
+  -ms-flex: 1 1 auto
 }
 
 @for $i from 1 through 12 {

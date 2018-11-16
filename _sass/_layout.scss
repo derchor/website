@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  margin-top: 6rem;
 }
 
 * {
@@ -11,7 +12,7 @@ body {
 }
 
 main {
-  padding: 3rem 1rem 3rem 1rem;
+  padding: 0rem 1rem 3rem 1rem;
   overflow: auto;
 }
 
@@ -34,16 +35,16 @@ header {
   }
 }
 
+
 main {
-  margin-left: 18rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 19rem;
 }
 
 
-
 body.has-liedtexte {
-  main {
-    margin-left: 0;
-  }
   background-color: #111;
   color: #ddd;
 }
@@ -56,6 +57,8 @@ body.has-liedtexte {
   width: 100%;
 }
 
+
+// MOBILE
 @media screen and (max-width: $break-point-mobile) {
   .desktop-only {
     display: none;
@@ -65,10 +68,9 @@ body.has-liedtexte {
     margin: 1rem -1rem 0rem -1rem;
   }
 
-  main {
-    margin-top: -2em;
+  body {
+    margin-top: 3.5rem;
   }
-
 }
 
 @media screen and (min-width: $break-point-mobile) {
@@ -77,14 +79,16 @@ body.has-liedtexte {
   }
 
   main {
-    margin-top: 2em;
+    margin-top: 0em;
   }
 }
 
-
+// MOBILE UND MITTEL
 @media screen and (max-width: $break-point) {
   body {
+    display: -ms-flexbox;
     flex-direction: column;
+    -ms-flex-direction: column;
 
     header {
       position: fixed;
@@ -105,10 +109,10 @@ body.has-liedtexte {
     }
 
     nav ul {
-      margin: 0;
-      padding: 0;
       display: flex;
+      display: -ms-flexbox;
       flex-direction: row;
+      -ms-flex-direction: row;
       justify-content: center;
       align-items: space-around;
       li {
@@ -118,4 +122,3 @@ body.has-liedtexte {
   }
 
 }
-

@@ -1,7 +1,10 @@
 .concert-list {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: row;
+  -ms-flex-direction: row;
   flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
 }
 .concert-preview {
   width: 11rem;
@@ -10,6 +13,7 @@
   margin: 0.5rem 1rem 1rem 0;
   text-decoration: none;
   overflow: hidden;
+  display: block;
 
   .concert-preview-image {
     height: 11rem;
