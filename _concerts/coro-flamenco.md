@@ -32,10 +32,10 @@ dates:
 reservation-link: http://derchor.ch/reservation
 ---
 
-Die unverwechselbaren Harmonien und Rhythmen des Flamencos, die kraftvollen Texte des berühmten Dichters Federico García Lorca und unser brillanter Chorklang ergeben zusammen ein teils melancholisches, teils rassiges Ganzes.
+Die unverwechselbaren Harmonien und Rhythmen des Flamencos, die kraftvollen Texte des ber&uuml;hmten Dichters Federico Garc&iacute;a Lorca und unser brillanter Chorklang ergeben zusammen ein teils melancholisches, teils rassiges Ganzes.
 
-Unterstützt werden wir vom grossartigen Flamenco-Gitarristen Mariano Martin, der das Projekt nicht nur mit seiner Fingerfertigkeit auf dem Instrument, sondern insbesondere auch mit einer eigenen Komposition für Chor, Gitarre und Perkussion ergänzt.
+Unterst&uuml;tzt werden wir vom grossartigen Flamenco-Gitarristen Mariano Martin, der das Projekt nicht nur mit seiner stupenden Fingerfertigkeit auf dem Instrument, sondern insbesondere auch mit einer eigenen Komposition f&uuml;r Chor, Gitarre und Perkussion erg&auml;nzt.
 
-Neben der Weltpremiere seines Werks «Esencia» (2019) singen wir den Liedzyklus «Romancero Gitano» von Mario Castelnuovo-Tedesco für Chor und Gitarre (1951) sowie die drei A-capella-Stücke «Tres Ciudades» von Eran Dinur (2011).
+Neben der Weltpremiere seines Werks &laquo;Esencia&raquo; (2019) singen wir den Liedzyklus &laquo;Romancero Gitano&raquo; von Mario Castelnuovo-Tedesco f&uuml;r Chor und Gitarre (1951) sowie die drei A-capella-St&uuml;cke &laquo;Tres Ciudades&raquo; von Eran Dinur (2011).
 
-Bei Konzept und Choreografien können wir zudem auf die Unterstützung der Flamencotänzerin Manuela Kämpf zählen.
+Bei Konzept und Choreografien k&ouml;nnen wir zudem auf die Unterst&uuml;tzung der [Flamencot&auml;nzerin Manuela K&auml;mpf](https://www.flamenco-manuela.ch) z&auml;hlen.
