@@ -1,34 +1,35 @@
 ---
+title: Coro Flamenco
 year: '2019'
 name: Coro Flamenco
 subtitle: Eine musikalische Reise nach Andalusien!
-featured_image_path: /Cover coro flamenco.png
+featured_image_path: "/Cover coro flamenco.png"
 current_concert: true
-flyer_path: /Flyer coro flamenco web.pdf
+flyer_path: "/Flyer coro flamenco web.pdf"
 images:
-  - image_path:
+- image_path: 
 youtube_videos:
-  - url:
+- url: 
 songs:
-  - title:
-    audio_path:
+- title: 
+  audio_path: 
 dates:
-  - datum: 'Donnerstag, 16.05.2019'
-    zeit: '20:30 Uhr'
-    ort: 'Petruskirche, Brunnadernstrasse 40, Bern'
-    reservation_link: 'http://derchor.ch/reservation'
-    bemerkung:
-  - datum: 'Freitag, 17.05.2019'
-    zeit: '20:30 Uhr'
-    ort: 'Petruskirche, Brunnadernstrasse 40, Bern'
-    reservation_link: 'http://derchor.ch/reservation'
-    bemerkung:
-  - datum: 'Samstag, 18.05.2019'
-    zeit: '20:00 Uhr'
-    ort: 'Kirche Oberstrass, Stapferstrasse 58, Zürich'
-    reservation_link:
-    bemerkung: Nur Abendkasse.
-reservation-link: 'http://derchor.ch/reservation'
+- datum: Donnerstag, 16.05.2019
+  zeit: 20:30 Uhr
+  ort: Petruskirche, Brunnadernstrasse 40, Bern
+  reservation_link: http://derchor.ch/reservation
+  bemerkung: 
+- datum: Freitag, 17.05.2019
+  zeit: 20:30 Uhr
+  ort: Petruskirche, Brunnadernstrasse 40, Bern
+  reservation_link: http://derchor.ch/reservation
+  bemerkung: 
+- datum: Samstag, 18.05.2019
+  zeit: 20:00 Uhr
+  ort: Kirche Oberstrass, Stapferstrasse 58, Zürich
+  reservation_link: 
+  bemerkung: Nur Abendkasse.
+reservation-link: http://derchor.ch/reservation
 ---
 
 Die unverwechselbaren Harmonien und Rhythmen des Flamencos, die kraftvollen Texte des ber&uuml;hmten Dichters Federico Garc&iacute;a Lorca und unser brillanter Chorklang ergeben zusammen ein teils melancholisches, teils rassiges Ganzes.
