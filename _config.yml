@@ -1,0 +1,68 @@
+---
+title: DerChor
+timezone: UTC
+collections:
+  concerts:
+    title: Concerts
+    output: true
+    permalink: "/konzerte/:name"
+  people:
+    title: Personen
+    output: true
+    permalink: "/personen/:name"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+    featured_image_path: ''
+    songs:
+    - title: ''
+      audio_path: ''
+    youtube_videos:
+    - url: ''
+    images:
+    - image_path: ''
+- scope:
+    path: ''
+    type: concerts
+  values:
+    layout: konzerte
+    current_concert: false
+    _comments:
+      current_concert: Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes
+      reservation-link: Sobald angegeben, erscheint der Reservationslink (nur auf
+        Sttartseite)
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: people
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: default
+permalink: "/posts/:year/:title.html"
+email: roland.studer@gmail.com
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+'
+baseurl: "/website"
+url: ''
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock

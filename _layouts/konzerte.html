@@ -1,0 +1,33 @@
+{% include html-start.html %}   
+
+<div class="grid">
+    {% if page.featured_image_path != '' %}
+    <div class="grid-width-6 featured-image">
+      <img src="{{page.featured_image_path | relative_url }}" alt="" class="shadow">
+
+    <div class="media desktop-only">
+      <div>{% include image-gallery.html id="gallery-left" %}</div>
+    </div>
+  </div>
+  {% endif %}
+  <div class="grid-width-6">
+    {% include pagination.html %}
+    <h2 class="no-margin">{{page.title}}</h2>
+    <h1 class="no-margin">{{page.name}}</h1>
+    <h2>{{page.subtitle}}</h2>
+
+    {{content}}
+
+    <div>
+      {% include songs-gallery.html %}
+      {% include video-gallery.html %}
+    </div>
+
+    <div class="media mobile-only">
+      <div>{% include image-gallery.html id="gallery-bottom" %}</div>
+    </div>
+  </div>
+</div>
+
+{% include html-end.html %}     
+

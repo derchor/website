@@ -1,0 +1,43 @@
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  position: relative;
+  padding-top: 3em;
+  margin: 0 1em 1em 0;
+  width: 15em;
+  height: 20em;
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  justify-content: flex-end;
+  transition: all 0.2s ease-out;
+
+  .card-image {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+  }
+
+  .card-body {
+    font-size: 0.8em;
+    padding: 0.5em;
+    min-height: 50%;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  &.is-placeholer {
+    height: 0;
+  }
+
+  &:hover {
+    transform: scale(1.02)
+  }
+}

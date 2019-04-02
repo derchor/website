@@ -1,0 +1,35 @@
+.grid {
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+}
+
+.grid.no-wrap {
+  flex-wrap: no-wrap;
+}
+
+.grid > * {
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto
+}
+
+@for $i from 1 through 12 {
+  .grid-width-#{$i} { 
+    width: percentage($i * 1/12);
+    &.is-unpadded { padding-right: 0; margin-right: 0;}
+  }
+}
+
+[class*='grid-width-'] {
+  padding-right: 3rem;
+}
+
+
+
+@media screen and (max-width: 40rem) {
+  .grid > * {
+    width: 100%;
+    padding-right: 0;
+  }
+
+}

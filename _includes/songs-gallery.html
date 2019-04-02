@@ -1,0 +1,28 @@
+{% if page.songs.count > 0 && page.songs.first.audio_path %}
+  <h2>Hörbeispiele</h2>
+  <div class="audio-list">
+    {% for song in page.songs %}
+      {% if song.audio_path %}
+      <div class="audio">
+        <div class="audio-title">{{song.title}}</div>
+        <audio src="{{song.audio_path | relative_url }}" controls preload="metadata"></audio>
+      </div> 
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <script type="text/javascript">
+    var songs = document.getElementsByTagName('audio');
+
+    pauseOtherSongs = function (e){
+      for(var i = 0; i < songs.length; i++) {
+        if(e.target != songs[i]) {
+          songs[i].pause();
+        }
+      }
+    }
+    for(var i = 0; i < songs.length; i++) {
+      songs[i].addEventListener('playing',pauseOtherSongs)
+    }
+  </script>
+{% endif %}

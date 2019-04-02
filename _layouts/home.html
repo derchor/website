@@ -1,0 +1,85 @@
+{% include html-start.html %}   
+
+{% for concert in site.concerts %}
+{% if concert.current_concert %}
+<div class="grid grid-large">
+	{% if concert.featured-image_path != '' %}
+	<div class="grid-width-5 featured-image">
+		<img src="{{concert.featured_image_path | relative_url}}" alt="" class="shadow" />
+		<img src="{{page.additonal_image_path | relative_url}}" alt="" class="shadow" />
+	</div>{% endif %}
+	<div class="grid-width-7 text-content">
+		<div>
+			<h2>Aktuelles Projekt</h2>
+			<a href="cloudcannon:collections/{{ concert.path }}" class="editor-link">Konzert anpassen</a>
+
+			<h1 class="no-margin">{{concert.name}}</h1>
+			<h2>{{concert.subtitle}}</h2>
+
+			{% for event in concert.dates %}
+				{% if event.reservation-link != '' %}
+					<a href="{{event.reservation_link}}" class="concert-date">
+				{% elsif convert.reservation-link %}
+					<a href="{{concert.reservation-link}}" class="concert-date">
+				{% else %}
+					<a class="concert-date">
+				{% endif%}
+					<strong>{{event.datum }} | {{event.zeit}}</strong><br>
+					{{event.ort}}
+					{% if event.bemerkung != '' %}
+					<div>
+						<br><small>{{event.bemerkung}}</small>
+					</div>
+					{% endif %}
+				</a>
+			{% endfor %}
+
+			{% if concert.reservation-link %} 
+			<a href="{{concert.reservation-link}}" class="reservation-link">Jetzt Reservieren</a>
+			{% endif %}
+
+
+			{{concert.content}}
+
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+{% if page.featured_image_path != '' %}
+<div class="grid grid-large">
+	{% if page.featured-image_path != '' %}
+	<div class="grid-width-5 featured-image">
+		<img src="{{page.featured_image_path | relative_url}}" alt="" class="shadow" />
+		<div class="media desktop-only">
+			<div>{% include media-gallery.html %}</div>
+		</div>
+
+	</div>{% endif %}
+	<div class="grid-width-7 text-content">
+		<div>
+			<p class="no-margin">{{page.date | date: '%Y'}}</p>
+			{{content}}
+		</div>
+		<div>&nbsp;</div>
+		<div class="media mobile-only">
+			<div>
+				{% include image-gallery.html id="gallery-left" %}
+			</div>
+		</div>
+	</div>
+</div>
+{% else %}
+<div class="grid">
+	<div class="grid-width-12">
+		<p class="no-margin">{{page.date | date: '%Y'}}</p>
+		<h1>{{page.title}}</h1>
+		{{content}}
+		<div class="media mobile-only">
+			<div>{% include media-gallery.html %}</div>
+		</div>
+	</div>
+</div>
+{% endif %}
+
+{% include html-end.html %}
