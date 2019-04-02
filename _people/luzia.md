@@ -6,3 +6,4 @@ image_path: "/images/people/luzia.png"
 description: 
 ---
 
+Ein kleiner Test
