@@ -5,8 +5,7 @@ DerChor ist erreichbar &uuml;ber <mailto:info@derchor.ch>.<br>Unsere Pr&auml;sid
 
 Wir proben w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&auml;geligasse 7 in Bern.
 
-
-![](/website/uploads/img-0367.jpg)
+![Der Chor in aktion](/website/uploads/img-0367.jpg)
 
 # Mitmachen
 
