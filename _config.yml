@@ -62,12 +62,11 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+- vendor
 plugins_dir: ./_plugins
 
 jekyll_get:
   - data: github
     json: 'https://api.github.com/orgs/derchor/repos'
     cache: false
-
-
 
