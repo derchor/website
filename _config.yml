@@ -69,4 +69,3 @@ jekyll_get:
   - data: github
     json: 'https://api.github.com/orgs/derchor/repos'
     cache: false
-
