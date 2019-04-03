@@ -26,6 +26,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Featured Image", name: "featured_image_path", widget: "image", required: false}
       - {label: "Flyer", name: "flyer_path", widget: "file", required: false}
       - {label: "Bilder", name: "images", widget: "list", field: {label: Image, name: image_path, widget: "image"}}
+      - {label: "Body", name: "body", widget: "markdown"}
+
 
 
 # ---
