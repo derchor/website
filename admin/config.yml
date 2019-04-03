@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Text", name: "body", widget: "markdown"}
           - {label: "Hauptbild", name: "featured_image_path", widget: "image"}
           - {label: "Zweitbild", name: "additonal_image_path", widget: "image"}
-          - {label: "Bilder", name: "featured_image_path", widget: "list", field: { label: "Bild", name: "image_path", widget: "image"}}
+          - {label: "Bilder", name: "images", widget: "list", field: { label: "Bild", name: "image_path", widget: "image"}}
       - label: "Kontakt"
         name: "kontakt"
         file: "kontakt.md"
