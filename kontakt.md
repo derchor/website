@@ -15,7 +15,7 @@ Wir proben w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&
 # Mitmachen
 {: .paragraph_style}
 
-Das aktuelle Projekt l&auml;uft bereits, Anmeldungen sind nicht mehr m&ouml;glich.<br>Wir freuen uns, dich an den Konzerten im Mai zu sehen!
+Das aktuelle Projekt l&auml;uft bereits, Anmeldungen sind derzeit nicht m&ouml;glich.<br>Wir freuen uns, dich an den Konzerten im Mai zu sehen!
 {: .paragraph_style}
 
 Wenn du Fragen hast, darfst du dich jederzeit bei uns melden: [info@derchor.ch](javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,64,100,101,114,99,104,111,114,46,99,104))).
