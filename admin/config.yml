@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     identifier_field: "year"
     folder: "_concerts"
     fields:
-      - {label: "Aktuelles Konzert", name: "current_concert", widget: "boolean", default: false, hint: "Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes"}
+      - {label: "Aktuelles Konzert", name: "current_concert", widget: "boolean", default: false, hint: "Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes", required: false}
       - {label: "Titel", name: "name", widget: "string", tagname: "h1"}
       - {label: "Jahr", name: "year", widget: "string", tagname: "h1"}
       - {label: "Untertitel", name: "subtitle", widget: "string", tagname: "h2", required: false}
