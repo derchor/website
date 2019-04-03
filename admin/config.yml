@@ -25,9 +25,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Aktuelles Konzert", name: "current_concert", widget: "boolean", default: false, hint: "Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes"}
       - {label: "Titel", name: "name", widget: "string", tagname: "h1"}
       - {label: "Jahr", name: "year", widget: "string", tagname: "h1"}
-      - {label: "Untertitel", name: "subtitle", widget: "string", tagname: "h2"}
+      - {label: "Untertitel", name: "subtitle", widget: "string", tagname: "h2", required: false}
       - {label: "Featured Image", name: "featured_image_path", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Flyer", name: "flyer_path", widget: "file", required: false}
       - {label: "Bilder", name: "images", widget: "list", field: {label: Image, name: image_path, widget: "image"}}
       - {label: "Youtube Videos", name: "youtube_videos", widget: "list", field: {label: "Embed URL", name: url, widget: "string"}}
@@ -44,6 +44,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Datum", name: "datum", widget: "string"}
           - {label: "Zeit", name: "zeit", widget: "string"}
           - {label: "Ort", name: "ort", widget: "string"}
-          - {label: "Reservationslink", name: "reservation_link", widget: "string"}
-          - {label: "Bemerkung", name: "bemerkung", widget: "string"}
-      - {label: "Allgemeiner Reservationslink", name: "reservation-link", widget: "string"}
+          - {label: "Reservationslink", name: "reservation_link", widget: "string", required: false}
+          - {label: "Bemerkung", name: "bemerkung", widget: "string", required: false}
+      - {label: "Allgemeiner Reservationslink", name: "reservation-link", widget: "string", required: false}
