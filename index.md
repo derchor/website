@@ -9,6 +9,7 @@ images:
 - image_path: "/images/concerts/2018/DerChor_18-D2.JPG"
 - image_path: "/images/concerts/2018/DerChor_18-E2.JPG"
 ---
+
 # Der Chor
 
 **DerChor** besteht aus rund 100 Studierenden und Ehemaligen des [Instituts für Vor- und Primarschule Bern NMS](http://www.ivp-nms.ch/), der Universität Bern und weiteren Schweizer Hochschulen.
