@@ -1,7 +1,6 @@
 ---
 title: Kontakt
 ---
-
 DerChor ist erreichbar &uuml;ber <mailto:info@derchor.ch>.<br>Unsere Pr&auml;sidenten Nina R&uuml;eger und Jonas Schmid geben gerne Auskunft.
 
 Wir proben w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&auml;geligasse 7 in Bern.
@@ -10,6 +9,6 @@ Wir proben w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&
 
 # Mitmachen
 
-Das aktuelle Projekt l&auml;uft bereits, Anmeldungen sind derzeit nicht m&ouml;glich.<br>Wir freuen uns, dich an den Konzerten im Mai zu sehen! Bis bald!
+Das aktuelle Projekt l&auml;uft bereits, Anmeldungen sind derzeit nicht m&ouml;glich.<br>Wir würden uns aber freuen, dich an den Konzerten im Mai zu sehen. Bis bald!
 
 Wenn du Fragen hast, darfst du dich jederzeit bei uns melden: [info@derchor.ch](javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,64,100,101,114,99,104,111,114,46,99,104))).
