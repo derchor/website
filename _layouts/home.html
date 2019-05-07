@@ -34,8 +34,8 @@
 				</a>
 			{% endfor %}
 
-			{% if concert.reservation-link %} 
-			<a href="{{concert.reservation-link}}" class="reservation-link">Jetzt Reservieren</a>
+			{% if concert.reservation-link and  concert.reservation-link != '' %} 
+				<a href="{{concert.reservation-link}}" class="reservation-link">Jetzt Reservieren</a>
 			{% endif %}
 
 
