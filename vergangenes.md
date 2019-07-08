@@ -1,6 +1,5 @@
 ---
 title: Vergangenes
-permalink: "/vergangenes/"
 layout: vergangenes
 ---
 
