@@ -1,6 +1,7 @@
 ---
 title: Vergangenes
 permalink: "/vergangenes/"
+layout: vergangenes
 ---
 
 Seit 2002 hat **DerChor** siebzehn grosse Konzertprojekte umgesetzt.
