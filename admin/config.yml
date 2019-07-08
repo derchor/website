@@ -26,6 +26,12 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Text", name: "body", widget: "markdown"}
+      - label: "Vergangenes"
+        name: "Vergangenes"
+        file: "vergangenes.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog Posts" # Used in the UI, ie.: "New Post"
     folder: "_posts" # The path to the folder where the documents are stored
