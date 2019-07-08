@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (master by default)
+
+media_folder: "/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+
+
+
+  - label: "Seiten"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Text", name: "body", widget: "markdown"}
+          - {label: "Hauptbild", name: "featured_image_path", widget: "image"}
+          - {label: "Zweitbild", name: "additonal_image_path", widget: "image"}
+          - {label: "Bilder", name: "images", widget: "list", field: { label: "Bild", name: "image_path", widget: "image"}}
+      - label: "Kontakt"
+        name: "kontakt"
+        file: "kontakt.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Text", name: "body", widget: "markdown"}
+      - label: "Vergangenes"
+        name: "Vergangenes"
+        file: "vergangenes.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog Posts" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featured_image_path", widget: "image", default: false}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "concert"
+    label: "Konzerte"
+    identifier_field: "year"
+    folder: "_concerts"
+    fields:
+      - {label: "Aktuelles Konzert", name: "current_concert", widget: "boolean", default: false, hint: "Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes", required: false}
+      - {label: "Titel", name: "name", widget: "string", tagname: "h1"}
+      - {label: "Jahr", name: "year", widget: "string", tagname: "h1"}
+      - {label: "Untertitel", name: "subtitle", widget: "string", tagname: "h2", required: false}
+      - {label: "Featured Image", name: "featured_image_path", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Flyer", name: "flyer_path", widget: "file", required: false}
+      - {label: "Bilder", name: "images", widget: "list", field: {label: Image, name: image_path, widget: "image"}}
+      - {label: "Youtube Videos", name: "youtube_videos", widget: "list", field: {label: "Embed URL", name: url, widget: "string"}}
+      - label: "Songs"
+        name: "songs"
+        widget: "list"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "MP3", name: "audio_path", widget: "file"}
+      - label: "Konzertdaten"
+        name: "dates"
+        widget: "list"
+        fields:
+          - {label: "Datum", name: "datum", widget: "string"}
+          - {label: "Zeit", name: "zeit", widget: "string"}
+          - {label: "Ort", name: "ort", widget: "string"}
+          - {label: "Reservationslink", name: "reservation_link", widget: "string", required: false}
+          - {label: "Bemerkung", name: "bemerkung", widget: "string", required: false}
+      - {label: "Allgemeiner Reservationslink", name: "reservation-link", widget: "string", required: false}
