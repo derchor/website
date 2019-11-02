@@ -9,6 +9,6 @@ Wir proben w&auml;hrend den Semestern jeweils am Mittwoch ab 18.15 Uhr an der N&
 
 # Mitmachen
 
-Die Proben für das Chorjahr 2019-2020 haben bereits begonnen. Anmeldungen sind derzeit nicht mehr möglich.
+Die Proben für das Chorjahr 2019-2020 haben bereits begonnen. Anmeldungen sind derzeit nicht mehr möglich. 
 
 Wenn du Fragen hast, darfst du dich jederzeit bei uns melden: [info@derchor.ch](javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,64,100,101,114,99,104,111,114,46,99,104))).
