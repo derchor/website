@@ -13,3 +13,12 @@ Why this build process? I earlier build in buddy works, but new limitation don't
 ## How to update
 
 Gehe zu https://derchor.netlify.com/admin und logge dich dort ein, falls du authorisiert bist (via Netlify Identity).
+
+
+No with middleman:
+
+- Correct all the imagepaths
+- Or configure the uploadpaths accordingly
+
+- Coro Flamenco scheint nicht die neusten Daten drin zu haben, besser nochmals nachschauen, ob ich nicht doch veraltete Daten haben.
+

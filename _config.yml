@@ -31,7 +31,7 @@ defaults:
     - image_path: ''
 - scope:
     path: ''
-    type: concerts
+    type: konzerte
   values:
     layout: konzerte
     current_concert: false

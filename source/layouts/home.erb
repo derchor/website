@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title>Der Chor - <%= current_page.data.title %></title>
+  <%= stylesheet_link_tag "site" %>
+  <%= javascript_include_tag "site" %>
+</head>
+<body>
+
+<%= partial 'layouts/main_navigation' %>
+
+<% current_concert = sitemap.resources.find do |resource|
+    resource.data.current_concert
+  end
+%>
+
+<main>
+  <% if current_concert %>
+    <div class="grid grid-large">
+      <% unless current_concert.data.featured_image_path.blank? %>
+        <div class="grid-width-5 featured-image">
+          <%= image_tag current_concert.data.featured_image_path, class: 'shadow'%>
+          <%= image_tag current_concert.data.additonal_image_path, class: 'shadow'%>
+        </div>
+      <% end %>
+      <div class="grid-width-7 text-content">
+        <div>
+          <h2>Aktuelles Projekt</h2>
+          <h1 class="no-margin"><%= current_concert.data.name %></h1>
+          <h2><%= current_concert.data.subtitle %></h2>
+
+          <% current_concert.data.dates.each do |concert_date| %>
+            <% reservation_link = concert_date.reservation_link || current_concert.data.reservation_link || '' %>
+            <a href="<%= reservation_link %>" class="concert-date">
+              <strong><%= concert_date.datum %> | <%= concert_date.zeit %></strong><br>
+              <%= concert_date.ort %>
+              <% if concert_date.bemerkung %>
+                <div><small><%= concert_date.bemerkung %></small></div>
+              <% end %>
+            </a>
+          <% end %>
+
+
+          <% unless current_concert.data.reservation_link  %>
+            <% link_to "Jetzt reservieren", current_concert.data.reservation_link, class: 'reservation-link' %>
+          <% end %>
+
+          <%= current_concert.render %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <% if current_page.data.featured_image_path.present? %>
+    <div class="grid grid-large">
+      <div class="grid-width-5 featured-image">
+        <%= image_tag current_page.data.featured_image_path, class: "shadow" %>
+        <div class="media desktop-only">
+          <div>{% include media-gallery.html %}</div>
+        </div>
+      </div>
+      <div class="grid-width-7 text-content">
+        <div>
+          <p class="no-margin">{{page.date | date: '%Y'}}</p>
+          {{content}}
+        </div>
+        <div>&nbsp;</div>
+        <div class="media mobile-only">
+          <div>
+            {% include image-gallery.html id="gallery-left" %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <% else %>>
+    <div class="grid">
+      <div class="grid-width-12">
+        <p class="no-margin">{{page.date | date: '%Y'}}</p>
+        <h1>{{page.title}}</h1>
+        <%= yield %>
+        <div class="media mobile-only">
+          <div>{% include media-gallery.html %}</div>
+        </div>
+      </div>
+    </div>
+  <% end %>>
+</main>
+
+</body>
+
+
+</html>
+
+
+{% include html-end.html %}

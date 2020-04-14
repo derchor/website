@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "concert"
     label: "Konzerte"
     identifier_field: "year"
-    folder: "_concerts"
+    folder: "konzerte"
     fields:
       - {label: "Aktuelles Konzert", name: "current_concert", widget: "boolean", default: false, hint: "Zeigt Konzert auf der Startseite an, aber nicht unter Vergangenes", required: false}
       - {label: "Titel", name: "name", widget: "string", tagname: "h1"}
@@ -75,4 +75,4 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Ort", name: "ort", widget: "string"}
           - {label: "Reservationslink", name: "reservation_link", widget: "string", required: false}
           - {label: "Bemerkung", name: "bemerkung", widget: "string", required: false}
-      - {label: "Allgemeiner Reservationslink", name: "reservation-link", widget: "string", required: false}
+      - {label: "Allgemeiner Reservationslink", name: "reservation_link", widget: "string", required: false}

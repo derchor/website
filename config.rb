@@ -5,13 +5,19 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-# Layouts
-# https://middlemanapp.com/basics/layouts/
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
+
+activate :livereload
 
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+page 'index.html', layout: 'home'
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -35,12 +41,4 @@ page '/*.txt', layout: false
 #   def some_helper
 #     'Helping'
 #   end
-# end
-
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
 # end
