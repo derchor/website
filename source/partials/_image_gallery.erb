@@ -2,7 +2,7 @@
 <% unless current_page.data.images.empty? %>
 <% images = current_page.data.images %>
   <div>
-    <div id="<%= id || "gallery" %>" class="gallery">
+    <div id="<%= locals[:id] || "gallery" %>" class="gallery">
       <!-- show  first four images -->
       <% images.first(4).each do |image| %>
         <%= link_to "", image, style: "background-image: url(#{image})" %>
@@ -23,7 +23,7 @@
   <script src="/public/gallery/jquery.magnific-popup.min.js"></script>
 
   <script type="text/javascript" charset="utf-8">
-    $('<%= id || "gallery" %>').magnificPopup({
+    $('#<%= locals[:id] || "gallery" %>').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     gallery:{enabled:true}

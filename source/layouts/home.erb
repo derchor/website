@@ -61,7 +61,7 @@
       <div class="grid-width-5 featured-image">
         <%= image_tag current_page.data.featured_image_path, class: "shadow" %>
         <div class="media desktop-only">
-          <div>{% include media-gallery.html %}</div>
+          <div><%= partial "partials/image_gallery.erb" %></div>
         </div>
       </div>
       <div class="grid-width-7 text-content">
@@ -82,7 +82,7 @@
         <h1><%= current_page.data.title %></h1>
         <%= yield %>
         <div class="media mobile-only">
-          <div>{% include media-gallery.html %}</div>
+          <div><%= partial "partials/media_gallery.erb" %></div>
         </div>
       </div>
     </div>
@@ -93,6 +93,3 @@
 
 
 </html>
-
-
-{% include html-end.html %}
