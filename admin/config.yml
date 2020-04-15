@@ -28,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Text", name: "body", widget: "markdown"}
       - label: "Vergangenes"
         name: "vergangenes"
-        file: "vergangenes.md"
+        file: "vergangenes.html.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "vergangenes"}
           - {label: "Titel", name: "title", widget: "string"}
