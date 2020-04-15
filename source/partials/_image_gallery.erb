@@ -5,15 +5,17 @@
     <div id="<%= locals[:id] || "gallery" %>" class="gallery">
       <!-- show  first four images -->
       <% images.first(4).each do |image| %>
-        <%= link_to "", image, style: "background-image: url(#{image})" %>
+        <%= link_to "", image.image_path, style: "background-image: url('#{image.image_path}')" %>
       <% end %>
       <!-- show  placeholder for further images -->
-      <% if images[4] %>
-        <%= link_to "#{images.size - 4} weitere", image, style: "background-image: url(#{image})", class: "gallery-more" %>
+      <% if images[4].present? %>
+        <a href="<%= images[4].image_path %>" style="background-image: url('<%= images[4].image_path %>')">
+          <div class="gallery-more"><%= "#{images.size - 4} weitere" %></div>
+        </a>
       <% end %>
       <!-- hide remaining images -->
       <% images[5] && images[5..].each do |image| %>
-        <%= link_to "", image, style: "display: hidden" %>
+        <%= link_to "", image.image_path, style: "display: hidden" %>
       <% end %>
     </div>
   </div>

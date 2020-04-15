@@ -7,8 +7,8 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Der Chor - <%= current_page.data.title %></title>
-  <%= stylesheet_link_tag "site" %>
-  <%= javascript_include_tag "site" %>
+  <%= stylesheet_link_tag "styles" %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
   end
 %>
 
-<main>
+<main class="p-4">
   <% if current_concert %>
     <div class="grid grid-large">
       <% unless current_concert.data.featured_image_path.blank? %>
@@ -50,7 +50,7 @@
             <% link_to "Jetzt reservieren", current_concert.data.reservation_link, class: 'reservation-link' %>
           <% end %>
 
-          <%= current_concert.render %>
+          <%= current_concert.render(layout: nil) %>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-  <% end %>>
+  <% end %>
 </main>
 
 </body>

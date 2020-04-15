@@ -20,6 +20,13 @@ page '/*.txt', layout: false
 
 page 'index.html', layout: 'home'
 page "/konzerte/*", layout: "concert"
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d --color',
+         source: ".tmp/dist",
+         latency: 1
+
+
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -39,8 +46,22 @@ page "/konzerte/*", layout: "concert"
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def next_concert
+    concert_paths = concerts.map(&:url)
+    index = concert_paths.index(current_page.url)
+    concert_paths[index-1]
+  end
+
+  def previous_concert
+    concert_paths = concerts.map(&:url)
+    index = concert_paths.index(current_page.url)
+    concert_paths[index+1]
+  end
+
+  def concerts
+    sitemap.resources.select{ |r| r.path.include?("konzerte/") && !r.data.current_concert }
+                      .sort_by { |c| c.data.year.to_i  }
+  end
+end
+

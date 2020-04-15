@@ -7,17 +7,42 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Der Chor - <%= current_page.data.title %></title>
-  <%= stylesheet_link_tag "site" %>
-  <%= javascript_include_tag "site" %>
+  <%= stylesheet_link_tag "styles" %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body>
 
 <%= partial 'layouts/main_navigation' %>
 
 <main>
-  <h1></h1>
-  <h1><%= current_page.data.name %></h1>
-  <%= yield %>
+  <div class="grid">
+    <% if current_page.data.featured_image_path.present? %>
+    <div class="grid-width-6 featured-image">
+      <img src="<%= current_page.data.featured_image_path %>" alt="" class="shadow">
+
+      <div class="media desktop-only">
+        <div><%= partial "/partials/image_gallery.erb", locals: {id: "left_gallery"} %></div>
+      </div>
+    </div>
+    <% end %>
+    <div class="grid-width-6">
+      <%= partial "partials/pagination.erb" %>
+      <h2 class="no-margin"><%= current_page.data.year %></h2>
+      <h1 class="no-margin"><%= current_page.data.name %></h1>
+      <h2><%= current_page.data.subtitle %></h2>
+
+      <%= yield %>
+      <div>
+        {% include songs-gallery.html %}
+        {% include video-gallery.html %}
+      </div>
+
+      <div class="media mobile-only">
+        <div><%= partial "/partials/image_gallery.erb" %></div>
+      </div>
+    </div>
+  </div>
+
 </main>
 </body>
 </html>
