@@ -14,35 +14,32 @@
 
 <%= partial 'layouts/main_navigation' %>
 
-<main>
-  <div class="grid">
-    <% if current_page.data.featured_image_path.present? %>
-    <div class="grid-width-6 featured-image">
-      <img src="<%= current_page.data.featured_image_path %>" alt="" class="shadow">
+<main class="p-2 md:flex max-w-6xl mx-auto">
+  <% if current_page.data.featured_image_path.present? %>
+  <div class="md:w-5/12 -mx-2 md:mx-2 pr-4">
+    <img src="<%= current_page.data.featured_image_path %>" alt="" class="shadow">
 
-      <div class="media desktop-only">
-        <div><%= partial "/partials/image_gallery.erb", locals: {id: "left_gallery"} %></div>
-      </div>
-    </div>
-    <% end %>
-    <div class="grid-width-6">
-      <%= partial "partials/pagination.erb" %>
-      <h2 class="no-margin"><%= current_page.data.year %></h2>
-      <h1 class="no-margin"><%= current_page.data.name %></h1>
-      <h2><%= current_page.data.subtitle %></h2>
-
-      <%= yield %>
-      <div>
-        <%= partial "/partials/songs_gallery.erb" %>
-        <%= partial "/partials/video_gallery.erb" %>
-      </div>
-
-      <div class="media mobile-only">
-        <div><%= partial "/partials/image_gallery.erb" %></div>
-      </div>
+    <div class="media desktop-only hidden">
+      <div><%= partial "/partials/image_gallery.erb", locals: {id: "left_gallery"} %></div>
     </div>
   </div>
+  <% end %>
+  <div class="md:w-7/12">
+    <%= partial "partials/pagination.erb" %>
+    <h2 class="no-margin"><%= current_page.data.year %></h2>
+    <h1 class="no-margin"><%= current_page.data.name %></h1>
+    <h2><%= current_page.data.subtitle %></h2>
 
+    <%= yield %>
+    <div>
+      <%= partial "/partials/songs_gallery.erb" %>
+      <%= partial "/partials/video_gallery.erb" %>
+    </div>
+
+    <div class="media mobile-only">
+      <div><%= partial "/partials/image_gallery.erb" %></div>
+    </div>
+  </div>
 </main>
 </body>
 </html>
