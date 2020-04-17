@@ -56,13 +56,13 @@ helpers do
   def next_concert
     concert_paths = concerts.map(&:url)
     index = concert_paths.index(current_page.url)
-    concert_paths[index-1]
+    index ? concert_paths[index-1] : nil
   end
 
   def previous_concert
     concert_paths = concerts.map(&:url)
     index = concert_paths.index(current_page.url)
-    concert_paths[index+1]
+    index ? concert_paths[index+1] : nil
   end
 
   def concerts
