@@ -1,6 +1,6 @@
-
-<% unless current_page.data.images.empty? %>
 <% images = current_page.data.images %>
+
+<% if images.present? && !images.empty? %>
   <div>
     <div id="<%= locals[:id] || "gallery" %>" class="gallery">
       <!-- show  first four images -->

@@ -3,10 +3,10 @@ title: Der Chor
 featured_image_path: /uploads/cantabile-vaja---valter-leban-6359.jpeg
 additonal_image_path: /images/concerts/2016/Schatten&Licht-derchor_16-460.jpg
 images:
-  - /uploads/derchor_19_show_-19.jpg
-  - /uploads/derchor_19_gp_-65.jpg
-  - /uploads/derchor_19_show_-138.jpg
-  - /uploads/derchor_19_gp_-208.jpg
+  - image_path: /uploads/derchor_19_show_-19.jpg
+  - image_path: /uploads/derchor_19_gp_-65.jpg
+  - image_path: /uploads/derchor_19_show_-138.jpg
+  - image_path: /uploads/derchor_19_gp_-208.jpg
 ---
 
 # Der Chor

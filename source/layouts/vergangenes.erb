@@ -5,7 +5,6 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Use the title from a page's frontmatter if it has one -->
   <title>Der Chor - <%= current_page.data.title %></title>
   <%= stylesheet_link_tag "styles" %>
   <%= javascript_include_tag "application" %>
@@ -26,7 +25,7 @@
       <div class="concert-list">
         <% concerts.reverse.each do |concert| %>
           <a href="<%= concert.url %>" class="concert-preview concert-preview-link shadow">
-            <div class="concert-preview-image" style="background-image: url(<%= concert.data.featured_image_path %>)"></div>
+            <div class="concert-preview-image" style="background-image: url(<%= image_path concert.data.featured_image_path, resize: "176x176" %>)"></div>
             <div class="concert-preview-title">
               <small><%= concert.data.year %></small><br />
               <%= concert.data.name %>
@@ -34,13 +33,14 @@
           </a>
         <% end %>
       </div>
-<!--      TODO POST-->
+
       <h2>Anderes</h2>
       <div class="concert-list">
-<!--        {% for post in site.posts %}-->
-        <a href="{{ post.url | relative_url }}" class="concert-preview concert-preview-link shadow">
-          <div class="concert-preview-title"><small>{{post.date | date: "%Y"}}</small><br />{{ post.title }}</div>
-        </a>
+        <% posts.reverse.each do |post| %>
+          <a href="<%= post.url %>" class="concert-preview concert-preview-link shadow">
+            <div class="concert-preview-title"><small><%= post.data.date.strftime("%Y") %></small><br /><%= post.data.title %>></div>
+          </a>
+        <% end %>
       </div>
     </div>
   </div>

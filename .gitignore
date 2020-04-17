@@ -9,3 +9,4 @@ _site
 .jekyll-metadata
 node_modules/
 .tmp/
+/cache/

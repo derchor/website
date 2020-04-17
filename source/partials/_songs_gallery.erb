@@ -1,14 +1,12 @@
-{% if page.songs.count > 0 && page.songs.first.audio_path %}
+<% if current_page.data.songs.present? %>
   <h2>Hörbeispiele</h2>
   <div class="audio-list">
-    {% for song in page.songs %}
-      {% if song.audio_path %}
+    <% current_page.data.songs.each do |song| %>
       <div class="audio">
-        <div class="audio-title">{{song.title}}</div>
-        <audio src="{{song.audio_path | relative_url }}" controls preload="metadata"></audio>
-      </div> 
-      {% endif %}
-    {% endfor %}
+        <div class="audio-title"><%= song.title %></div>
+        <audio src="<%= song.audio_path %>" controls preload="metadata"></audio>
+      </div>
+    <% end %>
   </div>
 
   <script type="text/javascript">
@@ -25,4 +23,4 @@
       songs[i].addEventListener('playing',pauseOtherSongs)
     }
   </script>
-{% endif %}
+<% end %>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Use the title from a page's frontmatter if it has one -->
+	<title>Der Chor - <%= current_page.data.title %></title>
+	<%= stylesheet_link_tag "styles" %>
+	<%= javascript_include_tag "application" %>
+</head>
+<body>
+
+<%= partial 'layouts/main_navigation' %>
+
+<main>
+	<% if current_page.data.featured_image_path.present? %>
+		<div class="grid grid-large">
+			<div class="grid-width-5 featured-image">
+				<img src="<%= current_page.data.featured_image_path %>" alt="" class="shadow" />
+			</div>
+			<div class="grid-width-7 text-content" style="margin-top: 0; padding-top: 0;">
+				<div>
+					<p class="no-margin"><%= current_page.data.date.strftime("%Y") %></p>
+					<h1 class="no-margin"><%= current_page.data.title %></h1>
+					<%= yield %>
+				</div>
+				<div class="media desktop-only">
+					<div>
+						<%= partial "/partials/image_gallery.erb", locals: {id: "left_gallery"} %>
+					</div>
+				</div>
+			</div>
+		</div>
+	<% else  %>
+		<p class="no-margin"><%= current_page.data&.date&.strftime("%Y") %></p>
+		<h1><%= current_page.data.title %></h1>
+		<%= yield %>
+		<div class="media mobile-only">
+			<div><%= partial "/partials/image_gallery.erb" %></div>
+		</div>
+	<% end %>
+
+
+</main>
+
+</body>

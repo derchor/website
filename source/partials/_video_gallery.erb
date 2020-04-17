@@ -1,0 +1,6 @@
+<% videos = current_page.data.youtube_videos %>
+<% if videos && !videos.empty? %>
+  <% current_page.data.youtube_videos.each do |video| %>
+    <iframe src="<%= video.url %>" frameborder="0" allowfullscreen></iframe>
+  <% end %>
+<% end %>

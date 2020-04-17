@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :images do |images|
+  images.optimize = true
+end
+
+
 configure :build do
   activate :minify_css
   activate :minify_javascript
@@ -20,13 +25,14 @@ page '/*.txt', layout: false
 
 page 'index.html', layout: 'home'
 page "/konzerte/*", layout: "concert"
+page "*", layout: "default"
+
+# Webpack config for postcss (tailwindcss, purgecss)
 activate :external_pipeline,
          name: :webpack,
          command: build? ? './node_modules/webpack/bin/webpack.js --bail' : './node_modules/webpack/bin/webpack.js --watch -d --color',
          source: ".tmp/dist",
          latency: 1
-
-
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -62,6 +68,11 @@ helpers do
   def concerts
     sitemap.resources.select{ |r| r.path.include?("konzerte/") && !r.data.current_concert }
                       .sort_by { |c| c.data.year.to_i  }
+  end
+
+  def posts
+    sitemap.resources.select{ |r| r.path.include?("posts/") && !r.data.current_concert }
+                     .sort_by { |p| p.data.date }
   end
 end
 
